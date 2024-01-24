@@ -1,0 +1,47 @@
+% !TEX root = ../my-thesis.tex
+%
+\chapter{Introduction}
+\label{sec:intro}
+
+\section{Research Background}
+\label{sec:intro:bg}
+
+The development in computing, often encapsulated by Moore's Law, has continually pushed the boundaries of processing power and miniaturization. However, as we approach the physical limits of silicon-based technologies, the quest for more energy-efficient computing paradigms has become paramount. Conventional digital computing, despite its widespread adoption and success, faces significant challenges in sustaining energy efficiency gains.
+
+In this context, novel computing methods that significantly deviate from traditional von Neumann architectures have been investigated to further progress toward reducing computational complexity, power consumption, and physical footprint.
+
+Stochastic computing (SC), which processes data using random bit streams and conventional digital logic, is one such solution. It diverges significantly from traditional binary computing by using extremely simple hardware to manipulate data in serial bitstreams. While many fundamental concepts of stochastic computing were already developed in the 1960s, the progress was stalled in the next several decades due to its perceived impracticality in favor of traditional digital approaches. 
+
+However, interest has been reignited in SC in the last decade for advantage in implementing several computing processes as well as potential compatibility with neuromorphic computing paradigms. The development of SC has shifted from the basic theories of fundamental elements to more complex applications like artificial neural networks (ANNs) as research is addressing fundamental challenges to make SC more broadly applicable. These include designing stochastic architectures that are power efficient and exploring the hardware design space for such architectures.
+
+Properties such as inherent fault tolerance and a lower hardware cost while maintaining performance have been observed to be a key advantage of stochastic computing, such as illustrated in applications like image segmentation. However, the steep trade-off between precision and latency as well as the overhead hardware cost of stochastic bitstream generation remained roadblocks to efficient SC hardware. 
+
+Incorporating SC within the edge computing domain presents a
+promising frontier. In-sensor computing, which integrates processing
+capabilities directly within sensors, aligns well with the
+minimalistic nature of SC. 
+
+As data from external sources are processed directly
+at the point of collection, in-sensor approaches could reduce latency in decision-making
+processes as well as minimizes the energy consumption and bandwidth requirements
+typically associated with the process of analog-to-digital conversion and data transmission to centralized processing units.
+These edge systems could perform complex tasks like real-time analytics, edge AI
+computations, and immediate decision-making, essential for applications in IoT,
+autonomous systems, environmental monitoring, and healthcare. 
+
+The synergy of SC with in-sensor computing could lead to a new generation of smart sensors capable of sophisticated data processing with minimal footprint. The challenge lies
+in optimizing the SC design to maintain accuracy and efficiency while
+capitalizing on the benefits of localized data processing.
+
+
+\section{Research Purpose}
+\label{sec:intro:motivation}
+
+The purpose of this research is to explore the in-sensor implementation of Stochastic Computing (SC) and to conduct a comparative analysis with conventional digital computing. Instead of assuming binary format as inputs to the system and adopting digital-to-stochastic converters, we will consider input signals from sensors developed for optimal usage in stochastic computing. Thus, this work aims to answer two fundamental questions: how certain edge applications can be implemented efficiently using SC, and whether the benefits of SC outweigh those of conventional digital computing.
+
+To achieve these objectives, we will employ a variety of tools and methodologies. Cocotb and Ikarus will be used for the verification of Register-Transfer Level (RTL) designs using Python, ensuring accurate performance of our stochastic computing implementations for ASIC designs in selected applications. Xilinx Vivado will be utilized to synthesize and analyze our stochastic computing designs on FPGA platforms. This will allow us to assess performance, power consumption, and area utilization of SC implementations in a comparative context. Finally, Gem5, a modular platform for computer-system architecture research, will be employed to simulate these applications on conventional digital computing platforms, focusing on CPU-based systems.
+
+In this thesis, Chapter 1 introduces the research background and purpose, setting the stage for a detailed exploration of Stochastic Computing (SC). Chapter 2 delves into the technical aspects of SC, including various bitstream representations, computing elements, and architectures. Chapter 3 discusses practical applications of SC in fields like image processing and machine learning. Chapter 4 outlines the methodologies used, including the specific versions and configurations of utilized tools including Vivado and Gem5. Chapter 5 presents the results and comparative analysis between SC and conventional digital computing. The thesis concludes with Chapter 6, offering conclusions and directions for our future research.
+
+
+

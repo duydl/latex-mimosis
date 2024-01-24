@@ -1,0 +1,3045 @@
+@misc{abdelouahabAcceleratingCNNInference2018,
+  title = {Accelerating {{CNN}} Inference on {{FPGAs}}: {{A Survey}}},
+  shorttitle = {Accelerating {{CNN}} Inference on {{FPGAs}}},
+  author = {Abdelouahab, Kamel and Pelcat, Maxime and Serot, Jocelyn and Berry, Fran{\c c}ois},
+  year = {2018},
+  month = may,
+  number = {arXiv:1806.01683},
+  eprint = {1806.01683},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2024-01-14},
+  abstract = {Convolutional Neural Networks (CNNs) are currently adopted to solve an ever greater number of problems, ranging from speech recognition to image classification and segmentation. The large amount of processing required by CNNs calls for dedicated and tailored hardware support methods. Moreover, CNN workloads have a streaming nature, well suited to reconfigurable hardware architectures such as FPGAs. The amount and diversity of research on the subject of CNN FPGA acceleration within the last 3 years demonstrates the tremendous industrial and academic interest. This paper presents a state-of-the-art of CNN inference accelerators over FPGAs. The computational workloads, their parallelism and the involved memory accesses are analyzed. At the level of neurons, optimizations of the convolutional and fully connected layers are explained and the performances of the different methods compared. At the network level, approximate computing and datapath optimization methods are covered and state-of-the-art approaches compared. The methods and tools investigated in this survey represent the recent trends in FPGA CNN inference accelerators and will fuel the future advances on efficient hardware deep learning.},
+  archiveprefix = {arxiv},
+  keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition,{Computer Science - Distributed, Parallel, and Cluster Computing},Computer Science - Hardware Architecture,Computer Science - Neural and Evolutionary Computing},
+  note = {Comment: Cloning our HAL submission in ArXiv, Technical Report - Universite Clermont Auvergne, January 2018}
+}
+
+@article{alaghiLogicRandomPulses,
+  title = {The {{Logic}} of {{Random Pulses}}: {{Stochastic Computing}}},
+  author = {Alaghi, Armin},
+  langid = {english},
+  keywords = {PhD Thesis},
+  file = {C:\Users\onepi\Zotero\storage\PB8S6769\Alaghi - The Logic of Random Pulses Stochastic Computing.pdf}
+}
+
+@misc{ArchitecturalSimulatorsConsidered,
+  title = {Architectural {{Simulators Considered Harmful}} | {{IEEE Micro}}},
+  urldate = {2024-01-05},
+  howpublished = {https://dl.acm.org/doi/10.1109/MM.2015.74},
+  keywords = {/unread},
+  file = {C\:\\Users\\onepi\\Zotero\\storage\\MF25FYM9\\Architectural Simulators Considered Harmful  IEEE Micro.pdf;C\:\\Users\\onepi\\Zotero\\storage\\QZDRPNPH\\MM.2015.html}
+}
+
+@article{ardakaniTrainingLinearFiniteState,
+  title = {Training {{Linear Finite-State Machines}}},
+  author = {Ardakani, Arash and Ardakani, Amir and Gross, Warren J},
+  abstract = {A finite-state machine (FSM) is a computation model to process binary strings in sequential circuits. Hence, a single-input linear FSM is conventionally used to implement complex single-input functions , such as tanh and exponentiation functions, in stochastic computing (SC) domain where continuous values are represented by sequences of random bits. In this paper, we introduce a method that can train a multi-layer FSM-based network where FSMs are connected to every FSM in the previous and the next layer. We show that the proposed FSM-based network can synthesize multi-input complex functions such as 2D Gabor filters and can perform non-sequential tasks such as image classifications on stochastic streams with no multiplication since FSMs are implemented by look-up tables only. Inspired by the capability of FSMs in processing binary streams, we then propose an FSM-based model that can process time series data when performing temporal tasks such as character-level language modeling. Unlike long shortterm memories (LSTMs) that unroll the network for each input time step and perform back-propagation on the unrolled network, our FSM-based model requires to backpropagate gradients only for the current input time step while it is still capable of learning long-term dependencies. Therefore, our FSM-based model can learn extremely long-term dependencies as it requires 1/l memory storage during training compared to LSTMs, where l is the number of time steps. Moreover, our FSM-based model reduces the power consumption of training on a GPU by 33\% compared to an LSTM model of the same size.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  annotation = {QID: Q104090553},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Ardakani et al. - Training Linear Finite-State Machines.pdf}
+}
+
+@article{ardakaniVLSIImplementationDeep2017,
+  title = {{{VLSI Implementation}} of {{Deep Neural Network Using Integral Stochastic Computing}}},
+  author = {Ardakani, Arash and {Leduc-Primeau}, Fran{\c c}ois and Onizawa, Naoya and Hanyu, Takahiro and Gross, Warren J.},
+  year = {2017},
+  month = oct,
+  journal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume = {25},
+  number = {10},
+  eprint = {1509.08972},
+  primaryclass = {cs},
+  pages = {2688--2699},
+  issn = {1063-8210, 1557-9999},
+  doi = {10.1109/TVLSI.2017.2654298},
+  urldate = {2023-08-08},
+  abstract = {The hardware implementation of deep neural networks (DNNs) has recently received tremendous attention: many applications in fact require high-speed operations that suit a hardware implementation. However, numerous elements and complex interconnections are usually required, leading to a large area occupation and copious power consumption. Stochastic computing has shown promising results for low-power area-efficient hardware implementations, even though existing stochastic algorithms require long streams that cause long latencies. In this paper, we propose an integer form of stochastic computation and introduce some elementary circuits. We then propose an efficient implementation of a DNN based on integral stochastic computing. The proposed architecture has been implemented on a Virtex7 FPGA, resulting in 45\% and 62\% average reductions in area and latency compared to the best reported architecture in literature. We also synthesize the circuits in a 65 nm CMOS technology and we show that the proposed integral stochastic architecture results in up to 21\% reduction in energy consumption compared to the binary radix implementation at the same misclassification rate. Due to fault-tolerant nature of stochastic architectures, we also consider a quasi-synchronous implementation which yields 33\% reduction in energy consumption w.r.t. the binary radix implementation without any compromise on performance.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Hardware Architecture,Computer Science - Neural and Evolutionary Computing,Stochastic Computing},
+  note = {Comment: 11 pages, 12 figures},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Ardakani et al. - 2017 - VLSI Implementation of Deep Neural Network Using I.pdf}
+}
+
+@article{brownStochasticNeuralComputation2001,
+  title = {Stochastic Neural Computation. {{I}}. {{Computational}} Elements},
+  author = {Brown, B.D. and Card, H.C.},
+  year = {Sept./2001},
+  journal = {IEEE Transactions on Computers},
+  volume = {50},
+  number = {9},
+  pages = {891--905},
+  issn = {00189340},
+  doi = {10.1109/12.954505},
+  urldate = {2023-09-06},
+  abstract = {{\DH}This paper examines a number of stochastic computational elements employed in artificial neural networks, several of which are introduced for the first time, together with an analysis of their operation. We briefly include multiplication, squaring, addition, subtraction, and division circuits in both unipolar and bipolar formats, the principles of which are well-known, at least for unipolar signals. We have introduced several modifications to improve the speed of the division operation. The primary contribution of this paper, however, is in introducing several state machine-based computational elements for performing sigmoid nonlinearity mappings, linear gain, and exponentiation functions. We also describe an efficient method for the generation of, and conversion between, stochastic and deterministic binary signals. The validity of the present approach is demonstrated in a companion paper through a sample application, the recognition of noisy optical characters using soft competitive learning. Network generalization capabilities of the stochastic network maintain a squared error within 10 percent of that of a floating-point implementation for a wide range of noise levels. While the accuracy of stochastic computation may not compare favorably with more conventional binary radix-based computation, the low circuit area, power, and speed characteristics may, in certain situations, make them attractive for VLSI implementation of artificial neural networks.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Brown and Card - 2001 - Stochastic neural computation. I. Computational elements.pdf}
+}
+
+@article{dasilvaParallelImplementationReinforcement2019,
+  title = {Parallel {{Implementation}} of {{Reinforcement Learning Q-Learning Technique}} for {{FPGA}}},
+  author = {Da Silva, Lucileide M. D. and Torquato, Matheus F. and Fernandes, Marcelo A. C.},
+  year = {2019},
+  journal = {IEEE Access},
+  volume = {7},
+  pages = {2782--2798},
+  issn = {2169-3536},
+  doi = {10.1109/ACCESS.2018.2885950},
+  urldate = {2024-01-10},
+  abstract = {Q-learning is an off-policy reinforcement learning technique, which has the main advantage of obtaining an optimal policy interacting with an unknown model environment. This paper proposes a parallel fixed-point Q-learning algorithm architecture implemented on field programmable gate arrays (FPGA) focusing on optimizing the system processing time. The convergence results are presented, and the processing time and occupied area were analyzed for different states and actions sizes scenarios and various fixed-point formats. The studies concerning the accuracy of the Q-learning technique response and resolution error associated with a decrease in the number of bits were also carried out for hardware implementation. The architecture implementation details were featured. The entire project was developed using the system generator platform (Xilinx), with a Virtex-6 xc6vcx240t-1ff1156 as the target FPGA.},
+  file = {C\:\\Users\\onepi\\OneDrive\\LogSync\\Zotero\\Da Silva et al. - 2019 - Parallel Implementation of Reinforcement Learning Q-Learning Technique for FPGA.pdf;C\:\\Users\\onepi\\Zotero\\storage\\TE5KLUU5\\Da Silva et al. - 2019 - Parallel Implementation of Reinforcement Learning Q-Learning Technique for FPGA.pdf}
+}
+
+@article{garcia-martinEstimationEnergyConsumption2019,
+  title = {Estimation of Energy Consumption in Machine Learning},
+  author = {{Garc{\'i}a-Mart{\'i}n}, Eva and Rodrigues, Crefeda Faviola and Riley, Graham and Grahn, H{\aa}kan},
+  year = {2019},
+  month = dec,
+  journal = {Journal of Parallel and Distributed Computing},
+  volume = {134},
+  pages = {75--88},
+  issn = {07437315},
+  doi = {10.1016/j.jpdc.2019.07.007},
+  urldate = {2023-12-31},
+  abstract = {Energy consumption has been widely studied in the computer architecture field for decades. While the adoption of energy as a metric in machine learning is emerging, the majority of research is still primarily focused on obtaining high levels of accuracy without any computational constraint. We believe that one of the reasons for this lack of interest is due to their lack of familiarity with approaches to evaluate energy consumption. To address this challenge, we present a review of the different approaches to estimate energy consumption in general and machine learning applications in particular. Our goal is to provide useful guidelines to the machine learning community giving them the fundamental knowledge to use and build specific energy estimation methods for machine learning algorithms. We also present the latest software tools that give energy estimation values, together with two use cases that enhance the study of energy consumption in machine learning.},
+  langid = {english},
+  keywords = {*},
+  file = {C:\Users\onepi\Zotero\storage\RQTNS9H8\García-Martín et al. - 2019 - Estimation of energy consumption in machine learning.pdf}
+}
+
+@inproceedings{gonzalez-guerreroAsynchronousStochasticComputing2019,
+  title = {Asynchronous {{Stochastic Computing}}},
+  booktitle = {2019 53rd {{Asilomar Conference}} on {{Signals}}, {{Systems}}, and {{Computers}}},
+  author = {{Gonzalez-Guerrero}, Patricia and Stan, Mircea R.},
+  year = {2019},
+  month = nov,
+  pages = {280--285},
+  issn = {2576-2303},
+  doi = {10.1109/IEEECONF44664.2019.9049011},
+  urldate = {2024-01-10},
+  abstract = {Asynchronous Stochastic Computing (ASC) leverages Synchronous Stochastic Computing (SSC) advantages and addresses its drawbacks. In SSC a multiplier is a single AND gate, saving 90\% of power and area compared with a typical 8bit binary multiplier. The key for SSC power-area efficiency comes from mapping numbers to streams of 1s and 0s. Despite the power-area efficiency, SSC drawbacks such as long latency, costly clock distribution network (CDN), and expensive stream generation, causes the energy consumption to grow prohibitively large. In this work, we introduce the foundations for ASC using Continuous-time-Markov-chains, and analyze the computing error due to random fluctuations. In ASC data is mapped to asynchronous-continuous-time streams, which yields two advantages over the synchronous counterpart: (1) CDN elimination, and (2) better accuracy performance. We compare ASC with SSC for three applications: (1) multiplication, (2) an image processing algorithm: gamma-correction, and (3) a singlelayer of a fully-connected artificial-neural-network (ANN) using a FinFET1X technology. Our Matlab, Spice-level simulations and post-place\&route (P\&R) reports demonstrate that ASC yields savings of 10\%-55\%, 33\%-44\%, and 50\% in latency, power, and energy respectively. These savings make ASC a good candidate to address the ultra-low-power requirements of machine learning for the IoT.},
+  keywords = {/unread}
+}
+
+@book{grossStochasticComputingTechniques2019,
+  title = {Stochastic {{Computing}}: {{Techniques}} and {{Applications}}},
+  shorttitle = {Stochastic {{Computing}}},
+  editor = {Gross, Warren J. and Gaudet, Vincent C.},
+  year = {2019},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  doi = {10.1007/978-3-030-03730-7},
+  urldate = {2023-06-29},
+  isbn = {978-3-030-03729-1 978-3-030-03730-7},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Calibre\Warren J. Gross\Stochastic Computing_ Techniques an (157)\Stochastic Computing_ Technique - Warren J. Gross.pdf}
+}
+
+@article{guoFPGAImplementationRealTime2023,
+  title = {{{FPGA Implementation}} of a {{Real-Time Edge Detection System Based}} on an {{Improved Canny Algorithm}}},
+  author = {Guo, Laigong and Wu, Sitong},
+  year = {2023},
+  month = jan,
+  journal = {Applied Sciences},
+  volume = {13},
+  number = {2},
+  pages = {870},
+  issn = {2076-3417},
+  doi = {10.3390/app13020870},
+  urldate = {2023-11-06},
+  abstract = {Canny edge detection is one of the most widely used edge detection algorithms due to its superior performance. However, it is a complex, time-consuming process and has a high hardware cost. To overcome these issues, an improved Canny algorithm is proposed in this paper. It uses the Sobel operator and approximation methods to calculate the gradient magnitude and direction for replacing complex operations with reduced hardware costs. Otsu's algorithm is introduced to adaptively determine the image threshold. However, Otsu's algorithm has division operations, and the division operation is complex and has low efficiency and slow speed. We introduce a logarithmic unit to turn the division into a subtraction operation that is easy to implement by hardware but does not affect the selection of the threshold. Experimental results show that the system can detect the edge of the image well without adjusting the threshold value when the external environment changes and requires only 1.231 ms to detect the edges of the 512 {\texttimes} 512 image when clocked at 50 MHz. Compared with existing FPGA implementations, our implementation uses the least amount of logical resources. Thus, it is more suitable for platforms that have limited logical resources.},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\PYVS7FCL\Guo and Wu - 2023 - FPGA Implementation of a Real-Time Edge Detection System Based on an Improved Canny Algorithm.pdf}
+}
+
+@article{guoNeuralCodingSpiking2021,
+  title = {Neural {{Coding}} in {{Spiking Neural Networks}}: {{A Comparative Study}} for {{Robust Neuromorphic Systems}}},
+  shorttitle = {Neural {{Coding}} in {{Spiking Neural Networks}}},
+  author = {Guo, Wenzhe and Fouda, Mohammed E. and Eltawil, Ahmed M. and Salama, Khaled Nabil},
+  year = {2021},
+  month = mar,
+  journal = {Frontiers in Neuroscience},
+  volume = {15},
+  pages = {638474},
+  issn = {1662-453X},
+  doi = {10.3389/fnins.2021.638474},
+  urldate = {2023-12-31},
+  abstract = {Various hypotheses of information representation in brain, referred to as neural codes, have been proposed to explain the information transmission between neurons. Neural coding plays an essential role in enabling the brain-inspired spiking neural networks (SNNs) to perform different tasks. To search for the best coding scheme, we performed an extensive comparative study on the impact and performance of four important neural coding schemes, namely, rate coding, time-to-first spike (TTFS) coding, phase coding, and burst coding. The comparative study was carried out using a biological 2-layer SNN trained with an unsupervised spike-timing-dependent plasticity (STDP) algorithm. Various aspects of network performance were considered, including classification accuracy, processing latency, synaptic operations (SOPs), hardware implementation, network compression efficacy, input and synaptic noise resilience, and synaptic fault tolerance. The classification tasks on Modified National Institute of Standards and Technology (MNIST) and Fashion-MNIST datasets were applied in our study. For hardware implementation, area and power consumption were estimated for these coding schemes, and the network compression efficacy was analyzed using pruning and quantization techniques. Different types of input noise and noise variations in the datasets were considered and applied. Furthermore, the robustness of each coding scheme to the non-ideality-induced synaptic noise and fault in analog neuromorphic systems was studied and compared. Our results show that TTFS coding is the best choice in achieving the highest computational performance with very low hardware implementation overhead. TTFS coding requires 4x/7.5x lower processing latency and 3.5x/6.5x fewer SOPs than rate coding during the training/inference process. Phase coding is the most resilient scheme to input noise. Burst coding offers the highest network compression efficacy and the best overall robustness to hardware non-idealities for both training and inference processes. The study presented in this paper reveals the design space created by the choice of each coding scheme, allowing designers to frame each scheme in terms of its strength and weakness given a designs' constraints and considerations in neuromorphic systems.},
+  langid = {english},
+  keywords = {*,/unread},
+  file = {C:\Users\onepi\Zotero\storage\6NMW8597\Guo et al. - 2021 - Neural Coding in Spiking Neural Networks A Comparative Study for Robust Neuromorphic Systems.pdf}
+}
+
+@inproceedings{hashimotoSoftErrorRate2017,
+  title = {Soft Error Rate Estimation with {{TCAD}} and Machine Learning},
+  booktitle = {2017 {{International Conference}} on {{Simulation}} of {{Semiconductor Processes}} and {{Devices}} ({{SISPAD}})},
+  author = {Hashimoto, Masanori and Liao, Wang and Hirokawa, Soichi},
+  year = {2017},
+  month = sep,
+  pages = {129--132},
+  publisher = {{IEEE}},
+  address = {{Kamakura, Japan}},
+  doi = {10.23919/SISPAD.2017.8085281},
+  urldate = {2024-01-10},
+  abstract = {We have proposed a neutron-induced soft error rate (SER) estimation method that incorporates machine learning with Monte Carlo radiation transport simulation. Multiple sensitive volumes based machine learning discriminator makes fast SER estimation possible for a unit circuit (e.g. SRAM cell) consisting of several transistors. The discriminator takes charges deposited by a secondary ion to individual volumes of all the transistors as input and outputs the discrimination result, i.e. upset or non-upset. Supervised learning with the training data obtained by TCAD simulations constructs the discriminator. This paper discusses the discriminator construction for 65-nm ultra-thin-box FD-SOI SRAM with TCAD. We experimentally demonstrate the multiple sensitive volumes assignment is useful for building a precise discriminator. We also discuss the critical volumes and transistors for discriminator performance.},
+  isbn = {978-4-86348-611-9 978-4-86348-610-2},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\VAXDDYZ5\Hashimoto et al. - 2017 - Soft error rate estimation with TCAD and machine learning.pdf}
+}
+
+@article{hirtzlinStochasticComputingHardware2019,
+  title = {Stochastic {{Computing}} for {{Hardware Implementation}} of {{Binarized Neural Networks}}},
+  author = {Hirtzlin, Tifenn and Penkovsky, Bogdan and Bocquet, Marc and Klein, Jacques-Olivier and Portal, Jean-Michel and Querlioz, Damien},
+  year = {2019},
+  journal = {IEEE Access},
+  volume = {7},
+  pages = {76394--76403},
+  issn = {2169-3536},
+  doi = {10.1109/ACCESS.2019.2921104},
+  urldate = {2023-09-06},
+  abstract = {Binarized Neural Networks, a recently discovered class of neural networks with minimal memory requirements and no reliance on multiplication, are a fantastic opportunity for the realization of compact and energy efficient inference hardware. However, such neural networks are generally not entirely binarized: their first layer remains with fixed point input. In this work, we propose a stochastic computing version of Binarized Neural Networks, where the input is also binarized. Simulations on the example of the Fashion-MNIST and CIFAR-10 datasets show that such networks can approach the performance of conventional Binarized Neural Networks. We evidence that the training procedure should be adapted for use with stochastic computing. Finally, the ASIC implementation of our scheme is investigated, in a system that closely associates logic and memory, implemented by Spin Torque Magnetoresistive Random Access Memory. This analysis shows that the stochastic computing approach can allow considerable savings with regards to conventional Binarized Neural networks in terms of area {\dbend}62{\dbend} area reduction on the Fashion-MNIST task). It can also allow important savings in terms of energy consumption, if we accept reasonable reduction of accuracy: for example a factor 2.1 can be saved, with the cost of 1.4{\dbend} in Fashion-MNIST test accuracy. These results highlight the high potential of Binarized Neural Networks for hardware implementation, and that adapting them to hardware constrains can provide important benefits.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Hirtzlin et al. - 2019 - Stochastic Computing for Hardware Implementation of Binarized Neural Networks.pdf}
+}
+
+@inproceedings{huTD3liteFPGAAcceleration2022,
+  title = {{{TD3lite}}: {{FPGA Acceleration}} of {{Reinforcement Learning}} with {{Structural}} and {{Representation Optimizations}}},
+  shorttitle = {{{TD3lite}}},
+  booktitle = {2022 32nd {{International Conference}} on {{Field-Programmable Logic}} and {{Applications}} ({{FPL}})},
+  author = {Hu, Chan-Wei and Hu, Jiang and Khatri, Sunil P.},
+  year = {2022},
+  month = aug,
+  pages = {79--85},
+  publisher = {{IEEE}},
+  address = {{Belfast, United Kingdom}},
+  doi = {10.1109/FPL57034.2022.00023},
+  urldate = {2023-12-31},
+  abstract = {Reinforcement learning (RL) is an effective and increasingly popular machine learning approach for optimization and decision-making. However, modern reinforcement learning techniques, such as deep Q-learning, often require neural network inference and training, and therefore are computationally expensive. For example, Twin-Delay Deep Deterministic Policy Gradient (TD3), a state-of-the-art RL technique, uses as many as 6 neural networks. In this work, we study the FPGA-based acceleration of TD3. To address the resource and computational overhead due to inference and training of the multiple neural networks of TD3, we propose TD3lite, an integrated approach consisting of a network sharing technique combined with bitwidth-optimized block floating-point arithmetic. TD3lite is evaluated on several robotic benchmarks with continuous state and action spaces. With only 5.7\% learning performance degradation, TD3lite achieves 21{\texttimes} and 8{\texttimes} speedup compared to CPU and GPU implementations, respectively. Its energy efficiency is 26{\texttimes} of the GPU implementation. Moreover, it utilizes {$\sim$} 25 - 40\% fewer FPGA resources compared to a conventional single-precision floating-point representation of TD3.},
+  isbn = {978-1-66547-390-3},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\2NVBHB6X\Hu et al. - 2022 - TD3lite FPGA Acceleration of Reinforcement Learning with Structural and Representation Optimization.pdf}
+}
+
+@article{kimApproximateDerandomizerStochastic2015,
+  title = {Approximate {{De-randomizer}} for {{Stochastic Circuits}}},
+  author = {Kim, Kyounghoon and Lee, Jongeun and Choi, Kiyoung},
+  year = {2015},
+  abstract = {De-randomizer is one of the most important components in stochastic computing. We suggest an approximate parallel counter for the de-randomizer generating a small number of errors, which outperforms a conventional parallel counter in terms of area, delay, and power.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Kim et al. - 2015 - Approximate De-randomizer for Stochastic Circuits.pdf}
+}
+
+@inproceedings{kimDynamicEnergyaccuracyTradeoff2016,
+  title = {Dynamic Energy-Accuracy Trade-off Using Stochastic Computing in Deep Neural Networks},
+  booktitle = {Proceedings of the 53rd {{Annual Design Automation Conference}}},
+  author = {Kim, Kyounghoon and Kim, Jungki and Yu, Joonsang and Seo, Jungwoo and Lee, Jongeun and Choi, Kiyoung},
+  year = {2016},
+  month = jun,
+  pages = {1--6},
+  publisher = {{ACM}},
+  address = {{Austin Texas}},
+  doi = {10.1145/2897937.2898011},
+  urldate = {2023-09-19},
+  abstract = {This paper presents an efficient DNN design with stochastic computing. Observing that directly adopting stochastic computing to DNN has some challenges including random error fluctuation, range limitation, and overhead in accumulation, we address these problems by removing near-zero weights, applying weight-scaling, and integrating the activation function with the accumulator. The approach allows an easy implementation of early decision termination with a fixed hardware design by exploiting the progressive precision characteristics of stochastic computing, which was not easy with existing approaches. Experimental results show that our approach outperforms the conventional binary logic in terms of gate area, latency, and power consumption.},
+  isbn = {978-1-4503-4236-0},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Kim et al. - 2016 - Dynamic energy-accuracy trade-off using stochastic computing in deep neural networks.pdf}
+}
+
+@inproceedings{kimFPGAImplementationConvolutional2017,
+  title = {{{FPGA}} Implementation of Convolutional Neural Network Based on Stochastic Computing},
+  booktitle = {2017 {{International Conference}} on {{Field Programmable Technology}} ({{ICFPT}})},
+  author = {Kim, Daewoo and Moghaddam, Mansureh S. and Moradian, Hossein and Sim, Hyeonuk and Lee, Jongeun and Choi, Kiyoung},
+  year = {2017},
+  month = dec,
+  pages = {287--290},
+  publisher = {{IEEE}},
+  address = {{Melbourne, VIC}},
+  doi = {10.1109/FPT.2017.8280162},
+  urldate = {2023-07-07},
+  abstract = {There has been a body of research to use stochastic computing (SC) for the implementation of neural networks, in the hope that it will reduce the area cost and energy consumption. However, no working neural network system based on stochastic computing has been demonstrated to support the viability of SC-based deep neural networks in terms of both recognition accuracy and cost/energy efficiency. In this demonstration we present an SC-based deep nenural network system that is highly accurate and efficient. Our system takes an input image and processes it with a convolutional neural network implemented on an FPGA using stochastic computing to recognize the input image, with nearly the same accuracy as conventional binary implementations.},
+  isbn = {978-1-5386-2656-6},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Kim et al. - 2017 - FPGA implementation of convolutional neural networ.pdf}
+}
+
+@article{kimParallelStochasticComputing2023,
+  title = {Parallel {{Stochastic Computing Architecture}} for {{Computationally Intensive Applications}}},
+  author = {Kim, Jeongeun and Jeong, Won Sik and Jeong, Youngwoo and Lee, Seung Eun},
+  year = {2023},
+  month = apr,
+  journal = {Electronics},
+  volume = {12},
+  number = {7},
+  pages = {1749},
+  issn = {2079-9292},
+  doi = {10.3390/electronics12071749},
+  urldate = {2024-01-08},
+  abstract = {Stochastic computing requires random number generators to generate stochastic sequences that represent probability values. In the case of an 8-bit operation, a 256-bit length of a stochastic sequence is required, which results in latency issues. In this paper, a stochastic computing architecture is proposed to address the latency issue by employing parallel linear feedback shift registers (LFSRs). The proposed architecture reduces the latency in the stochastic sequence generation process without losing accuracy. In addition, the proposed architecture achieves area efficiency by reducing 69\% of flip-flops and 70.4\% of LUTs compared to architecture employing shared LFSRs, and 74\% of flip-flops and 58\% of LUTs compared to the architecture applying multiple LFSRs with the same computational time.},
+  langid = {english},
+  keywords = {/unread},
+  annotation = {QID: Q124287389},
+  file = {C:\Users\onepi\Zotero\storage\WWHSPRS2\Kim et al. - 2023 - Parallel Stochastic Computing Architecture for Computationally Intensive Applications.pdf}
+}
+
+@article{leduc-primeauDitheredBeliefPropagation2012,
+  title = {Dithered {{Belief Propagation Decoding}}},
+  author = {{Leduc-Primeau}, Francois and Hemati, Saied and Mannor, Shie and Gross, Warren J.},
+  year = {2012},
+  month = aug,
+  journal = {IEEE Transactions on Communications},
+  volume = {60},
+  number = {8},
+  pages = {2042--2047},
+  issn = {0090-6778},
+  doi = {10.1109/TCOMM.2012.050812.110115A},
+  urldate = {2024-01-17},
+  keywords = {/unread}
+}
+
+@article{leeStochasticComputingConvolutional2020,
+  title = {Stochastic Computing in Convolutional Neural Network Implementation: A Review},
+  shorttitle = {Stochastic Computing in Convolutional Neural Network Implementation},
+  author = {Lee, Yang Yang and Abdul Halim, Zaini},
+  year = {2020},
+  month = nov,
+  journal = {PeerJ Computer Science},
+  volume = {6},
+  pages = {e309},
+  issn = {2376-5992},
+  doi = {10.7717/peerj-cs.309},
+  urldate = {2023-12-31},
+  abstract = {Stochastic computing (SC) is an alternative computing domain for ubiquitous deterministic computing whereby a single logic gate can perform the arithmetic operation by exploiting the nature of probability math. SC was proposed in the 1960s when binary computing was expensive. However, presently, SC started to regain interest after the widespread of deep learning application, specifically the convolutional neural network (CNN) algorithm due to its practicality in hardware implementation. Although not all computing functions can translate to the SC domain, several useful function blocks related to the CNN algorithm had been proposed and tested by researchers. An evolution of CNN, namely, binarised neural network, had also gained attention in the edge computing due to its compactness and computing efficiency. This study reviews various SC CNN hardware implementation methodologies. Firstly, we review the fundamental concepts of SC and the circuit structure and then compare the advantages and disadvantages amongst different SC methods. Finally, we conclude the overview of SC in CNN and make suggestions for widespread implementation.},
+  langid = {english},
+  keywords = {/unread},
+  annotation = {QID: Q110950127},
+  note = {\section{Citations}
+
+\par
+Do not edit this note manually!
+\par
+[
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Armin",
+          "lastName": "Alaghi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "John P.",
+          "lastName": "Hayes",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Survey of Stochastic Computing",
+      "date": "2013-05-01",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q56571716",
+      "volume": "12",
+      "pages": "1-19",
+      "publicationTitle": "ACM Transactions on Embedded Computing Systems",
+      "DOI": "10.1145/2465787.2465794",
+      "issue": "2s"
+    \},
+    "ocis": [
+      "010110950127-01056571716"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Sparsh",
+          "lastName": "Mittal",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "A survey of FPGA-based accelerators for convolutional neural networks",
+      "date": "2018-10-06",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q57694338",
+      "publicationTitle": "Neural Computing and Applications",
+      "DOI": "10.1007/S00521-018-3761-1"
+    \},
+    "ocis": [
+      "010110950127-01057694338"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Vincent",
+          "lastName": "Canals",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Antoni",
+          "lastName": "Morro",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Antoni",
+          "lastName": "Oliver",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Miquel L.",
+          "lastName": "Alomar",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Josep L.",
+          "lastName": "Rossell{\'o}",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "A New Stochastic Computing Methodology for Efficient Neural Network Implementation.",
+      "date": "2015-04-23",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q50924589",
+      "volume": "27",
+      "pages": "551-564",
+      "publicationTitle": "IEEE Transactions on Neural Networks and Learning Systems",
+      "DOI": "10.1109/TNNLS.2015.2413754",
+      "issue": "3"
+    \},
+    "ocis": [
+      "010110950127-01050924589"
+    ]
+  \}
+]},
+  file = {C:\Users\onepi\Zotero\storage\3PQNSZKC\Lee and Abdul Halim - 2020 - Stochastic computing in convolutional neural network implementation a review.pdf}
+}
+
+@inproceedings{liAccelerationDeepConvolutional2017,
+  title = {Towards Acceleration of Deep Convolutional Neural Networks Using Stochastic Computing},
+  booktitle = {2017 22nd {{Asia}} and {{South Pacific Design Automation Conference}} ({{ASP-DAC}})},
+  author = {Li, Ji and Ren, Ao and Li, Zhe and Ding, Caiwen and Yuan, Bo and Qiu, Qinru and Wang, Yanzhi},
+  year = {2017},
+  month = jan,
+  pages = {115--120},
+  publisher = {{IEEE}},
+  address = {{Chiba, Japan}},
+  doi = {10.1109/ASPDAC.2017.7858306},
+  urldate = {2023-09-19},
+  abstract = {In recent years, Deep Convolutional Neural Network (DCNN) has become the dominant approach for almost all recognition and detection tasks and outperformed humans on certain tasks. Nevertheless, the high power consumptions and complex topologies have hindered the widespread deployment of DCNNs, particularly in wearable devices and embedded systems with limited area and power budget. This paper presents a fully parallel and scalable hardware-based DCNN design using Stochastic Computing (SC), which leverages the energy-accuracy trade-off through optimizing SC components in different layers. We first conduct a detailed investigation of the Approximate Parallel Counter (APC) based neuron and multiplexer-based neuron using SC, and analyze the impacts of various design parameters, such as bit stream length and input number, on the energy/power/area/accuracy of the neuron cell. Then, from an architecture perspective, the influence of inaccuracy of neurons in different layers on the overall DCNN accuracy (i.e., software accuracy of the entire DCNN) is studied. Accordingly, a structure optimization method is proposed for a general DCNN architecture, in which neurons in different layers are implemented with optimized SC components, so as to reduce the area, power, and energy of the DCNN while maintaining the overall network performance in terms of accuracy. Experimental results show that the proposed approach can find a satisfactory DCNN configuration, which achieves 55X, 151X, and 2X improvement in terms of area, power and energy, respectively, while the error is increased by 2.86\%, compared with the conventional binary ASIC implementation.},
+  isbn = {978-1-5090-1558-0},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Li et al. - 2017 - Towards acceleration of deep convolutional neural networks using stochastic computing.pdf}
+}
+
+@article{liComputationStochasticBit2014,
+  title = {Computation on {{Stochastic Bit Streams Digital Image Processing Case Studies}}},
+  author = {Li, Peng and Lilja, David J. and Qian, Weikang and Bazargan, Kia and Riedel, Marc D.},
+  year = {2014},
+  month = mar,
+  journal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume = {22},
+  number = {3},
+  pages = {449--462},
+  issn = {1063-8210, 1557-9999},
+  doi = {10.1109/TVLSI.2013.2247429},
+  urldate = {2023-07-07},
+  abstract = {Maintaining the reliability of integrated circuits as transistor sizes continue to shrink to nanoscale dimensions is a significant looming challenge for the industry. Computation on stochastic bit streams, which could replace conventional deterministic computation based on a binary radix, allows similar computation to be performed more reliably and often with less hardware area. Prior work discussed a variety of specific stochastic computational elements (SCEs) for applications such as artificial neural networks and control systems. Recently, very promising new SCEs have been developed based on finite-state machines (FSMs). In this paper, we introduce new SCEs based on FSMs for the task of digital image processing. We present five digital image processing algorithms as case studies of practical applications of the technique. We compare the error tolerance, hardware area, and latency of stochastic implementations to those of conventional deterministic implementations using binary radix encoding. We also provide a rigorous analysis of a particular function, namely the stochastic linear gain function, which had only been validated experimentally in prior work.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  note = {\begin{itemize}
+
+\item 
+
+\section{Annotations (10/6/2023, 3:17:15 PM)}
+
+\par
+(Li et al., 2014)
+\par
+\item 
+
+\par
+``n the paradigm of computation on stochastic bit streams, logical computations are performed on values encoded in randomly streaming bits [3]{\textendash}[9]. The technique can gracefully tolerate high levels of errors. Furthermore, complex operations can often be performed with remarkably simple hardware. The images in Fig. 1 illus'' (Li et al., 2014)
+\par
+\item 
+``II. STOCHASTIC COMPUTATIONAL ELEMENTS'' (Li et al., 2014)
+
+\item 
+
+\par
+``e value, exon, and a two-parameter stochastic linear gain [18]. In, we'' (Li et al., 2014)
+\par
+\end{itemize}
+
+\par
+``The concept of computation on stochastic bit streams was first introduced in the 1960s by Gaines [3]. He discussed basic stochastic computational elements (SCEs) such as multiplicatio'' (Li et al., 2014, p. 1)
+\par
+``The concept of computation on stochastic bit streams was first introduced in the 1960s by Gaines [3]. He discussed basic stochastic computational elements (SCEs) such as multiplicatio'' (Li et al., 2014, p. 1)},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Li et al. - 2014 - Computation on Stochastic Bit Streams Digital Image Processing Case Studies.pdf}
+}
+
+@article{liLogicalComputationStochastic2014,
+  title = {Logical {{Computation}} on {{Stochastic Bit Streams}} with {{Linear Finite-State Machines}}},
+  author = {Li, Peng and Lilja, David J. and Qian, Weikang and Riedel, Marc D. and Bazargan, Kia},
+  year = {2014},
+  month = jun,
+  journal = {IEEE Transactions on Computers},
+  volume = {63},
+  number = {6},
+  pages = {1474--1486},
+  issn = {0018-9340, 1557-9956, 2326-3814},
+  doi = {10.1109/TC.2012.231},
+  urldate = {2023-08-08},
+  abstract = {Most digital systems operate on a positional representation of data, such as binary radix. An alternative is to operate on random bit streams where the signal value is encoded by the probability of obtaining a one versus a zero. This representation is much less compact than binary radix. However, complex operations can be performed with very simple logic. Furthermore, since the representation is uniform, with all bits weighted equally, it is highly tolerant of soft errors (i.e., bit flips). Both combinational and sequential constructs have been proposed for operating on stochastic bit streams. Prior work has shown that combinational logic can implement multiplication and scaled addition effectively while linear finite-state machines (FSMs) can implement complex functions such as exponentiation and tanh effectively.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C\:\\Users\\onepi\\OneDrive\\LogSync\\Zotero\\Li et al. - 2014 - Logical Computation on Stochastic Bit Streams with.pdf;C\:\\Users\\onepi\\Zotero\\storage\\LGKGAMAG\\Li et al. - 2014 - Logical Computation on Stochastic Bit Streams with Linear Finite-State Machines.pdf}
+}
+
+@article{liuDesignEvaluationStochastic2019,
+  title = {Design and {{Evaluation}} of {{Stochastic Computing Neural Networks}} for {{Machine Learning Applications}}},
+  author = {Liu, Yidong},
+  year = {2019},
+  langid = {english},
+  keywords = {PhD Thesis,Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Liu - 2019 - Design and Evaluation of Stochastic Computing Neural Networks for Machine Learning Applications.pdf}
+}
+
+@article{liuEnergyEfficientNoiseTolerantRecurrent2019,
+  title = {An {{Energy-Efficient}} and {{Noise-Tolerant Recurrent Neural Network Using Stochastic Computing}}},
+  author = {Liu, Yidong and Liu, Leibo and Lombardi, Fabrizio and Han, Jie},
+  year = {2019},
+  month = sep,
+  journal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume = {27},
+  number = {9},
+  pages = {2213--2221},
+  issn = {1063-8210, 1557-9999},
+  doi = {10.1109/TVLSI.2019.2920152},
+  urldate = {2024-01-14},
+  keywords = {/unread}
+}
+
+@article{liuGradientDescentUsing2018,
+  title = {Gradient {{Descent Using Stochastic Circuits}} for {{Efficient Training}} of {{Learning Machines}}},
+  author = {Liu, Siting and Jiang, Honglan and Liu, Leibo and Han, Jie},
+  year = {2018},
+  month = nov,
+  journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  volume = {37},
+  number = {11},
+  pages = {2530--2541},
+  issn = {0278-0070, 1937-4151},
+  doi = {10.1109/TCAD.2018.2858363},
+  urldate = {2023-09-08},
+  abstract = {Gradient descent (GD) is a widely used optimization algorithm in machine learning. In this paper, a novel stochastic computing GD circuit (SC-GDC) is proposed by encoding the gradient information in stochastic sequences. Inspired by the structure of a neuron, a stochastic integrator is used to optimize the weights in a learning machine by its ``inhibitory'' and ``excitatory'' inputs. Specifically, two AND (or XNOR) gates for the unipolar representation (or the bipolar representation) and one stochastic integrator are, respectively, used to implement the multiplications and accumulations in a GD algorithm. Thus, the SC-GDC is very area- and power-efficient. As per the formulation of the proposed SC-GDC, it provides unbiased estimate of the optimized weights in a learning algorithm. The proposed SCGDC is then used to implement a least-mean-square algorithm and a softmax regression. With a similar accuracy, the proposed design achieves more than 30{\texttimes} improvement in throughput per area (TPA) and consumes less than 13\% of the energy per training sample, compared with a fixed-point implementation. Moreover, a signed SC-GDC is proposed for training complex neural networks (NNs). It is shown that for a 784-128-128-10 fully connected NN, the signed SC-GDC produces a similar training result with its fixed-point counterpart, while achieving more than 90\% energy saving and 82\% reduction in training time with more than 50{\texttimes} improvement in TPA.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Liu et al. - 2018 - Gradient Descent Using Stochastic Circuits for Efficient Training of Learning Machines.pdf}
+}
+
+@article{liuIntroductionDynamicStochastic2020,
+  title = {Introduction to {{Dynamic Stochastic Computing}}},
+  author = {Liu, Siting and Gross, Warren J. and Han, Jie},
+  year = 2020,
+  journal = {IEEE Circuits and Systems Magazine},
+  volume = {20},
+  number = {3},
+  pages = {19--33},
+  issn = {1531-636X, 1558-0830},
+  doi = {10.1109/MCAS.2020.3005483},
+  urldate = {2024-01-08},
+  abstract = {Stochastic computing (SC) is an old but reviving computing paradigm for its simple data path that can perform various arithmetic operations. It allows for low power implementation, which would otherwise be complex using the conventional positional binary coding. In SC, a number is encoded by a random bit stream of `0's and `1's with an equal weight for every bit. However, a long bit stream is usually required to achieve a high accuracy. This requirement inevitably incurs a long latency and high energy consumption in an SC system. In this article, we present a new type of stochastic computing that uses dynamically variable bit streams, which is, therefore, referred to as dynamic stochastic computing (DSC). In DSC, a random bit is used to encode a single value from a digital signal. A sequence of such random bits is referred to as a dynamic stochastic sequence. Using a stochastic integrator, DSC is well suited for implementing accumulation-based iterative algorithms such as numerical integration and gradient descent. The underlying mathematical models are formulated for functional analysis and error estimation. A DSC system features a higher energy efficiency than conventional computing using a fixed-point representation with a power consumption as low as conventional SC. It is potentially useful in a broad spectrum of applicaRtiNoGns including signal processing, numerical integration and machine learning.},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\CTNRCSYX\Liu et al. - 2020 - Introduction to Dynamic Stochastic Computing.pdf}
+}
+
+@inproceedings{liUsingStochasticComputing2011,
+  title = {Using Stochastic Computing to Implement Digital Image Processing Algorithms},
+  booktitle = {2011 {{IEEE}} 29th {{International Conference}} on {{Computer Design}} ({{ICCD}})},
+  author = {Li, Peng and Lilja, David J.},
+  year = {2011},
+  month = oct,
+  pages = {154--161},
+  publisher = {{IEEE}},
+  address = {{Amherst, MA, USA}},
+  doi = {10.1109/ICCD.2011.6081391},
+  urldate = {2023-07-07},
+  abstract = {As device scaling continues to nanoscale dimensions, circuit reliability will continue to become an ever greater problem. Stochastic computing, which performs computing with random bits (stochastic bits streams), can be used to enable reliable computation using those unreliable devices. However, one of the major issues of stochastic computing is that applications implemented with this technique are limited by the available computational elements. In this paper, first we will introduce and prove a stochastic absolute value function. Second, we will demonstrate a mathematical analysis of a stochastic tanh function, which is a key component used in a stochastic comparator. Third, we will present a quantitative analysis of a one-parameter linear gain function, and propose a new two-parameter version. The validity of the present stochastic computational elements is demonstrated through four basic digital image processing algorithms: edge detection, frame difference based image segmentation, median filter based noise reduction, and image contrast stretching. Our experimental results show that stochastic implementations tolerate more noise and consume less hardware than their conventional counterparts.},
+  isbn = {978-1-4577-1954-7 978-1-4577-1953-0 978-1-4577-1952-3},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Li and Lilja - 2011 - Using stochastic computing to implement digital image processing algorithms.pdf}
+}
+
+@article{liuStochasticComputationalMultiLayer2018,
+  title = {A {{Stochastic Computational Multi-Layer Perceptron}} with {{Backward Propagation}}},
+  author = {Liu, Yidong and Liu, Siting and Wang, Yanzhi and Lombardi, Fabrizio and Han, Jie},
+  year = {2018},
+  month = sep,
+  journal = {IEEE Transactions on Computers},
+  volume = {67},
+  number = {9},
+  pages = {1273--1286},
+  issn = {0018-9340, 1557-9956, 2326-3814},
+  doi = {10.1109/TC.2018.2817237},
+  urldate = {2023-08-07},
+  abstract = {Stochastic computation has recently been proposed for implementing artificial neural networks with reduced hardware and power consumption, but at a decreased accuracy and processing speed. Most existing implementations are based on pre-training such that the weights are predetermined for neurons at different layers, thus these implementations lack the ability to update the values of the network parameters. In this paper, a stochastic computational multi-layer perceptron (SC-MLP) is proposed by implementing the backward propagation algorithm for updating the layer weights. Using extended stochastic logic (ESL), a reconfigurable stochastic computational activation unit (SCAU) is designed to implement different types of activation functions such as the tanh and the rectifier function. A triple modular redundancy (TMR) technique is employed for reducing the random fluctuations in stochastic computation. A probability estimator (PE) and a divider based on the TMR and a binary search algorithm are further proposed with progressive precision for reducing the required stochastic sequence length. Therefore, the latency and energy consumption of the SC-MLP are significantly reduced. The simulation results show that the proposed design is capable of implementing both the training and inference processes. For the classification of nonlinearly separable patterns, at a slight loss of accuracy by 1.32-1.34 percent, the proposed design requires only 28.5-30.1 percent of the area and 18.9-23.9 percent of the energy consumption incurred by a design using floating point arithmetic. Compared to a fixed-point implementation, the SC-MLP consumes a smaller area (40.7-45.5 percent) and a lower energy consumption (38.0-51.0 percent) with a similar processing speed and a slight drop of accuracy by 0.15-0.33 percent. The area and the energy consumption of the proposed design is from 80.7-87.1 percent and from 71.9-93.1 percent, respectively, of a binarized neural network (BNN), with a similar accuracy.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Liu et al. - 2018 - A Stochastic Computational Multi-Layer Perceptron with Backward Propagation.pdf}
+}
+
+@article{liuSurveyStochasticComputing2021,
+  title = {A {{Survey}} of {{Stochastic Computing Neural Networks}} for {{Machine Learning Applications}}},
+  author = {Liu, Yidong and Liu, Siting and Wang, Yanzhi and Lombardi, Fabrizio and Han, Jie},
+  year = {2021},
+  month = jul,
+  journal = {IEEE Transactions on Neural Networks and Learning Systems},
+  volume = {32},
+  number = {7},
+  pages = {2809--2824},
+  issn = {2162-237X, 2162-2388},
+  doi = {10.1109/TNNLS.2020.3009047},
+  urldate = {2023-08-07},
+  abstract = {Neural networks (NNs) are effective machine learning models that require significant hardware and energy consumption in their computing process. To implement NNs, stochastic computing (SC) has been proposed to achieve a tradeoff between hardware efficiency and computing performance. In an SC NN, hardware requirements and power consumption are significantly reduced by moderately sacrificing the inference accuracy and computation speed. With recent developments in SC techniques, however, the performance of SC NNs has substantially been improved, making it comparable with conventional binary designs yet by utilizing less hardware. In this article, we begin with the design of a basic SC neuron and then survey different types of SC NNs, including multilayer perceptrons, deep belief networks, convolutional NNs, and recurrent NNs. Recent progress in SC designs that further improve the hardware efficiency and performance of NNs is subsequently discussed. The generality and versatility of SC NNs are illustrated for both the training and inference processes. Finally, the advantages and challenges of SC NNs are discussed with respect to binary counterparts.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  annotation = {QID: Q98209648},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Liu et al. - 2021 - A Survey of Stochastic Computing Neural Networks for Machine Learning Applications.pdf}
+}
+
+@misc{lowe-powerGem5SimulatorVersion2020,
+  title = {The Gem5 {{Simulator}}: {{Version}} 20.0+},
+  shorttitle = {The Gem5 {{Simulator}}},
+  author = {{Lowe-Power}, Jason and Ahmad, Abdul Mutaal and Akram, Ayaz and Alian, Mohammad and Amslinger, Rico and Andreozzi, Matteo and Armejach, Adri{\`a} and Asmussen, Nils and Beckmann, Brad and Bharadwaj, Srikant and Black, Gabe and Bloom, Gedare and Bruce, Bobby R. and Carvalho, Daniel Rodrigues and Castrillon, Jeronimo and Chen, Lizhong and Derumigny, Nicolas and Diestelhorst, Stephan and Elsasser, Wendy and Escuin, Carlos and Fariborz, Marjan and {Farmahini-Farahani}, Amin and Fotouhi, Pouya and Gambord, Ryan and Gandhi, Jayneel and Gope, Dibakar and Grass, Thomas and Gutierrez, Anthony and Hanindhito, Bagus and Hansson, Andreas and Haria, Swapnil and Harris, Austin and Hayes, Timothy and Herrera, Adrian and Horsnell, Matthew and Jafri, Syed Ali Raza and Jagtap, Radhika and Jang, Hanhwi and Jeyapaul, Reiley and Jones, Timothy M. and Jung, Matthias and Kannoth, Subash and Khaleghzadeh, Hamidreza and Kodama, Yuetsu and Krishna, Tushar and Marinelli, Tommaso and Menard, Christian and Mondelli, Andrea and Moreto, Miquel and M{\"u}ck, Tiago and Naji, Omar and Nathella, Krishnendra and Nguyen, Hoa and Nikoleris, Nikos and Olson, Lena E. and Orr, Marc and Pham, Binh and Prieto, Pablo and Reddy, Trivikram and Roelke, Alec and Samani, Mahyar and Sandberg, Andreas and Setoain, Javier and Shingarov, Boris and Sinclair, Matthew D. and Ta, Tuan and Thakur, Rahul and Travaglini, Giacomo and Upton, Michael and Vaish, Nilay and Vougioukas, Ilias and Wang, William and Wang, Zhengrong and Wehn, Norbert and Weis, Christian and Wood, David A. and Yoon, Hongil and Zulian, {\'E}der F.},
+  year = {2020},
+  month = sep,
+  number = {arXiv:2007.03152},
+  eprint = {2007.03152},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-12-31},
+  abstract = {The open-source and community-supported gem5 simulator is one of the most popular tools for computer architecture research. This simulation infrastructure allows researchers to model modern computer hardware at the cycle level, and it has enough fidelity to boot unmodified Linux-based operating systems and run full applications for multiple architectures including x86, Arm, and RISC-V. The gem5 simulator has been under active development over the last nine years since the original gem5 release. In this time, there have been over 7500 commits to the codebase from over 250 unique contributors which have improved the simulator by adding new features, fixing bugs, and increasing the code quality. In this paper, we give and overview of gem5's usage and features, describe the current state of the gem5 simulator, and enumerate the major changes since the initial release of gem5. We also discuss how the gem5 simulator has transitioned to a formal governance model to enable continued improvement and community support for the next 20 years of computer architecture research.},
+  archiveprefix = {arxiv},
+  keywords = {*,/unread,Computer Science - Hardware Architecture},
+  note = {Comment: Source, comments, and feedback: https://github.com/darchr/gem5-20-paper},
+  file = {C\:\\Users\\onepi\\OneDrive\\LogSync\\Zotero\\Lowe-Power et al. - 2020 - The gem5 Simulator Version 20.0+.pdf;C\:\\Users\\onepi\\Zotero\\storage\\HEIH7VMW\\2007.html}
+}
+
+@inproceedings{lubanaMinimalisticImageSignal2019,
+  title = {Minimalistic {{Image Signal Processing}} for {{Deep Learning Applications}}},
+  booktitle = {2019 {{IEEE International Conference}} on {{Image Processing}} ({{ICIP}})},
+  author = {Lubana, Ekdeep Singh and Dick, Robert P. and Aggarwal, Vinayak and Pradhan, Pyari Mohan},
+  year = {2019},
+  month = sep,
+  pages = {4165--4169},
+  publisher = {{IEEE}},
+  address = {{Taipei, Taiwan}},
+  doi = {10.1109/ICIP.2019.8803645},
+  urldate = {2023-11-06},
+  abstract = {In-sensor energy-efficient deep learning accelerators have the potential to enable the use of deep neural networks in embedded vision applications. However, their negative impact on accuracy has been severely underestimated. The inference pipeline used in prior in-sensor deep learning accelerators bypasses the image signal processor (ISP), thereby disrupting the conventional vision pipeline and undermining accuracy of machine learning algorithms trained on conventional, postISP datasets. For example, the detection accuracy of an offthe-shelf Faster RCNN algorithm in a vehicle detection scenario reduces by 60\%. To make in-sensor accelerators practical, we describe energy-efficient operations that yield most of the benefits of an ISP and reduce covariate shift between the training (ISP processed images) and target (RAW images) distributions. For the vehicle detection problem, our approach improves accuracy by 25{\textendash}60\%. Relative to the conventional ISP pipeline, energy consumption and response time improve by 30\% and 34\%, respectively.},
+  isbn = {978-1-5386-6249-6},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\YXWJ92G3\Lubana et al. - 2019 - Minimalistic Image Signal Processing for Deep Learning Applications.pdf}
+}
+
+@inproceedings{mengQTAccelGenericFPGA2020,
+  title = {{{QTAccel}}: {{A Generic FPGA}} Based {{Design}} for {{Q-Table}} Based {{Reinforcement Learning Accelerators}}},
+  shorttitle = {{{QTAccel}}},
+  booktitle = {2020 {{IEEE International Parallel}} and {{Distributed Processing Symposium Workshops}} ({{IPDPSW}})},
+  author = {Meng, Yuan and Kuppannagari, Sanmukh and Rajat, Rachit and Srivastava, Ajitesh and Kannan, Rajgopal and Prasanna, Viktor},
+  year = {2020},
+  month = may,
+  pages = {107--114},
+  publisher = {{IEEE}},
+  address = {{New Orleans, LA, USA}},
+  doi = {10.1109/IPDPSW50202.2020.00024},
+  urldate = {2023-12-31},
+  abstract = {Q-Table based Reinforcement Learning (QRL) is a class of widely used algorithms in AI that work by successively improving the estimates of Q-values {\textendash} quality of state-action pairs, stored in a table. They significantly outperform Neural Network based techniques when the state space is tractable. Fast learning for AI applications in several domains (such as robotics), with tractable `mid-sized' Q-tables, still necessitates performing a large number of rapid updates. State-of-the-art FPGA implementations of QRL do not scale well with the increasing Q-Table state space. Thus, they are not efficient for such applications. In this work, we develop a novel FPGA based design of QRL and SARSA (State Action Reward State Action), scalable to large state spaces and thereby facilitating a large class of AI applications. Our architecture provides higher throughput while using significantly fewer on-chip resources. It is capable of supporting a variety of action selection policies that covers Q-Learning and variations of bandit algorithms and can be easily extended for multi-agent Q learning. Our pipelined implementation fully handles the dependencies between consecutive updates allowing it to process one sample every clock cycle. We evaluate our architecture for Q-Learning and SARSA algorithms and show that our designs achieve a high throughput of up to 180 million samples per second.},
+  isbn = {978-1-72817-445-7},
+  langid = {english},
+  keywords = {*},
+  file = {C:\Users\onepi\Zotero\storage\MFGXSRQI\Meng et al. - 2020 - QTAccel A Generic FPGA based Design for Q-Table based Reinforcement Learning Accelerators.pdf}
+}
+
+@misc{mnihPlayingAtariDeep2013,
+  title = {Playing {{Atari}} with {{Deep Reinforcement Learning}}},
+  author = {Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Graves, Alex and Antonoglou, Ioannis and Wierstra, Daan and Riedmiller, Martin},
+  year = {2013},
+  month = dec,
+  number = {arXiv:1312.5602},
+  eprint = {1312.5602},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2024-01-14},
+  abstract = {We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all previous approaches on six of the games and surpasses a human expert on three of them.},
+  archiveprefix = {arxiv},
+  keywords = {/unread,Computer Science - Machine Learning},
+  annotation = {49 citations (Inspire/arXiv) [2024-01-15]},
+  note = {Comment: NIPS Deep Learning Workshop 2013}
+}
+
+@article{najafiNewViewsStochastic2018,
+  title = {New {{Views}} for {{Stochastic Computing}}: {{From Time-Encoding}} to {{Deterministic Processing}}},
+  shorttitle = {New {{Views}} for {{Stochastic Computing}}},
+  author = {Najafi, Mohammadhassan},
+  year = {2018},
+  month = jul,
+  urldate = {2024-01-15},
+  abstract = {Stochastic computing (SC), a paradigm first introduced in the 1960s, has received considerable attention in recent years as a potential paradigm for emerging technologies and ''post-CMOS'' computing. Logical computation is performed on random bitstreams where the signal value is encoded by the probability of obtaining a one versus a zero. This unconventional representation of data offers some intriguing advantages over conventional weighted binary. Implementing complex functions with simple hardware (e.g., multiplication using a single AND gate), tolerating soft errors (i.e., bit flips), and progressive precision are the primary advantages of SC. The obvious disadvantage, however, is latency. A stochastic representation is exponentially longer than conventional binary radix. Long latencies translate into high energy consumption, often higher than that of their binary counterpart. Generating bit streams is also costly. Factoring in the cost of the bit-stream generators, the overall hardware cost of an SC implementation is often comparable to a conventional binary implementation. This dissertation begins by proposing a highly unorthodox idea: performing computation with digital constructs on time-encoded analog signals. We introduce a new, energy-efficient, high-performance, and much less costly approach for SC using time-encoded pulse signals. We explore the design and implementation of arithmetic operations on time-encoded data and discuss the advantages, challenges, and potential applications. Experimental results on image processing applications show up to 99\% performance speedup, 98\% saving in energy dissipation, and 40\% area reduction compared to prior stochastic implementations. We further introduce a low-cost approach for synthesizing sorting network circuits based on deterministic unary bit-streams. Synthesis results show more than 90\% area and power savings compared to the costs of the conventional binary implementation. Time-based encoding of data is then exploited for fast and energy-efficient processing of data with the developed sorting circuits.  Poor progressive precision is the main challenge with the recently developed deterministic methods of SC. We propose a high-quality down-sampling method which significantly improves the processing time and the energy consumption of these deterministic methods by pseudo-randomizing bitstreams. We also propose two novel deterministic methods of processing bitstreams by using low-discrepancy sequences. We further introduce a new advantage to SC paradigm-the skew tolerance of SC circuits. We exploit this advantage in developing polysynchronous clocking, a design strategy for optimizing the clock distribution network of SC systems. Finally, as the first study of its kind to the best of our knowledge, we rethink the memory system design for SC. We propose a seamless stochastic system, StochMem, which features analog memory to trade the energy and area overhead of data conversion for computation accuracy.},
+  langid = {english},
+  keywords = {PhD Thesis},
+  annotation = {Accepted: 2018-09-21T16:08:55Z},
+  file = {C:\Users\onepi\Zotero\storage\EBQYCGKX\Najafi - 2018 - New Views for Stochastic Computing From Time-Encoding to Deterministic Processing.pdf}
+}
+
+@article{najafiOverviewTimeBasedComputing2017,
+  title = {An {{Overview}} of {{Time-Based Computing}} with {{Stochastic Constructs}}},
+  author = {Najafi, M. Hassan and {Jamali-Zavareh}, Shiva and Lilja, David J. and Riedel, Marc D. and Bazargan, Kia and Harjani, Ramesh},
+  year = {2017},
+  month = nov,
+  journal = {IEEE Micro},
+  volume = {37},
+  number = {6},
+  pages = {62--71},
+  issn = {0272-1732},
+  doi = {10.1109/MM.2017.4241345},
+  urldate = {2024-01-08},
+  langid = {english},
+  file = {C:\Users\onepi\Zotero\storage\LXFJ8FE4\Najafi et al. - 2017 - An Overview of Time-Based Computing with Stochastic Constructs.pdf}
+}
+
+@article{najafiPerformingStochasticComputation,
+  title = {Performing {{Stochastic Computation Deterministically}}},
+  author = {Najafi, M Hassan and Jenson, Devon and Lilja, David and Riedel, Marc},
+  abstract = {Stochastic logic performs computation on data represented by random bit-streams. The representation allows complex arithmetic to be performed with very simple logic, but it suffers from high latency and poor precision. Furthermore, the results are always somewhat inaccurate due to random fluctuations. In this paper, we show that randomness is not a requirement for this computational paradigm. If properly structured, the same arithmetical constructs can operate on deterministic bit-streams, with the data represented uniformly by the fraction of 1's versus 0's. This paper presents three approaches for the computation: relatively prime stream lengths, rotation, and clock division. Unlike stochastic methods, all three of our deterministic methods produce completely accurate results. The cost of generating the deterministic streams is a small fraction of the cost of generating streams from random/pseudorandom sources. Most importantly, the latency is reduced by a factor of 1 2n , where n is the equivalent number of bits of precision.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\Zotero\storage\TII5E7QM\Najaﬁ et al. - Performing Stochastic Computation Deterministically.pdf}
+}
+
+@article{najafiTimeEncodedValuesHighly2017,
+  title = {Time-{{Encoded Values}} for {{Highly Efficient Stochastic Circuits}}},
+  author = {Najafi, M. Hassan and {Jamali-Zavareh}, Shiva and Lilja, David J. and Riedel, Marc D. and Bazargan, Kia and Harjani, Ramesh},
+  year = {2017},
+  month = may,
+  journal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume = {25},
+  number = {5},
+  pages = {1644--1657},
+  issn = {1063-8210, 1557-9999},
+  doi = {10.1109/TVLSI.2016.2645902},
+  urldate = {2023-11-06},
+  abstract = {Stochastic computing (SC) is a promising technique for applications that require low area overhead and fault tolerance, but can tolerate relatively high latency. In the SC paradigm, logical computation is performed on randomized bit streams. In prior work, streams were generated with linear feedback shift registers; these contributed heavily to the hardware cost and consumed a significant amount of power. This paper introduces a new approach for encoding signal values: computation is performed on analog periodic pulse signals. Exploiting pulse width modulation, time-encoded signals corresponding to specific values are generated by adjusting the frequency and duty cycles of pulse width modulated (PWM) signals. With this approach, the latency, area, and energy consumption are all greatly reduced. Experimental results on image processing applications show up to 99\% performance speedup, 98\% saving in energy dissipation, and 40\% area reduction compared to prior stochastic approaches. Circuits synthesized with the proposed approach can work as fast and energy-efficiently as a conventional binary design while retaining the fault-tolerance and lowcost advantages of conventional stochastic designs.},
+  langid = {english},
+  keywords = {*,Stochastic Computing},
+  file = {C:\Users\onepi\Zotero\storage\3QPZFIMP\Najafi et al. - 2017 - Time-Encoded Values for Highly Efficient Stochastic Circuits.pdf}
+}
+
+@article{nguyenEfficientStochasticComputing,
+  title = {Efficient {{Stochastic Computing Architectures}} for {{Deep Neural Networks}}},
+  author = {Nguyen, Van Tinh},
+  abstract = {This thesis comprises four parts, where the first one presents a novel architecture for radial basis function (RBF) computation employing stochastic computing. The RBF is optimized using proposed simple stochastic logic circuits. We validated this approach by comparison with both Bernstein polynomial and twodimensional finite-state machine (2D-FSM)-based implementation. Optimally, the mean absolute error is reduced by 40\% and 80\% compared to two other wellknown approaches, Bernstein polynomial and 2D-FSM-based implementation, respectively. In terms of hardware cost, our proposed solution required as much as the Bernstein method did. Moreover, the proposed approach outperforms the 2D-FSM-based implementation, roughly 54\% less hardware cost. Regarding the critical path delay, the proposed system is less than 12\% than others on average. Besides, the proposed architecture also required 70\% less power than 2D-FSM-based implementation. The second part of the thesis proposes a novel technique implementation of hyperbolic tanh(ax) and sigmoid(2ax) functions for high precision and compact computational hardware based on stochastic logic. This work demonstrates the stochastic computation of tanh(ax) and sigmoid(2ax) functions-based Bernstein polynomial using a bipolar format. The format conversion from bipolar to unipolar format is involved in our implementation. One achievement is that our proposed method is more accurate than the state-of-theart, including the finite-state machine (FSM)-based method, JK-FF. On average, 90\% of improvement of this work in terms of mean square error (MAE) has been *Doctoral Dissertation, Graduate School of Science and Technology, Nara Institute of Science and Technology, January 24, 2022.},
+  langid = {english},
+  keywords = {/unread,PhD Thesis,Stochastic Computing},
+  file = {C:\Users\onepi\Zotero\storage\NNNN9KHK\Nguyen - Eﬃcient Stochastic Computing Architectures for Deep Neural Networks.pdf}
+}
+
+@inproceedings{onizawaAsynchronousStochasticDecoding2012,
+  title = {Asynchronous {{Stochastic Decoding}} of {{Low-Density Parity-Check Codes}}},
+  booktitle = {2012 {{IEEE}} 42nd {{International Symposium}} on {{Multiple-Valued Logic}}},
+  author = {Onizawa, N. and Gaudet, V. C. and Hanyu, T. and Gross, W. J.},
+  year = {2012},
+  month = may,
+  pages = {92--97},
+  publisher = {{IEEE}},
+  address = {{Victoria, BC}},
+  doi = {10.1109/ISMVL.2012.35},
+  urldate = {2024-01-17},
+  isbn = {978-1-4673-0908-0 978-0-7695-4673-5},
+  keywords = {/unread}
+}
+
+@article{rathiExploringNeuromorphicComputing2023,
+  title = {Exploring {{Neuromorphic Computing Based}} on {{Spiking Neural Networks}}: {{Algorithms}} to {{Hardware}}},
+  shorttitle = {Exploring {{Neuromorphic Computing Based}} on {{Spiking Neural Networks}}},
+  author = {Rathi, Nitin and Chakraborty, Indranil and Kosta, Adarsh and Sengupta, Abhronil and Ankit, Aayush and Panda, Priyadarshini and Roy, Kaushik},
+  year = {2023},
+  month = dec,
+  journal = {ACM Computing Surveys},
+  volume = {55},
+  number = {12},
+  pages = {1--49},
+  issn = {0360-0300, 1557-7341},
+  doi = {10.1145/3571155},
+  urldate = {2023-12-31},
+  abstract = {Neuromorphic Computing, a concept pioneered in the late 1980s, is receiving a lot of attention lately due to its promise of reducing the computational energy, latency, as well as learning complexity in artificial neural networks. Taking inspiration from neuroscience, this interdisciplinary field performs a multi-stack optimization across devices, circuits, and algorithms by providing an end-to-end approach to achieving brain-like efficiency in machine intelligence. On one side, neuromorphic computing introduces a new algorithmic paradigm, known as Spiking Neural Networks (SNNs), which is a significant shift from standard deep learning and transmits information as spikes~(``1'' or ``0'') rather than analog values. This has opened up novel algorithmic research directions to formulate methods to represent data in spike-trains, develop neuron models that can process information over time, design learning algorithms for event-driven dynamical systems, and engineer network architectures amenable to sparse, asynchronous, event-driven computing to achieve lower power consumption. On the other side, a parallel research thrust focuses on development of efficient computing platforms for new algorithms. Standard accelerators that are amenable to deep learning workloads are not particularly suitable to handle processing across multiple timesteps efficiently. To that effect, researchers have designed neuromorphic hardware that rely on event-driven sparse computations as well as efficient matrix operations. While most large-scale neuromorphic systems have been explored based on CMOS technology, recently, Non-Volatile Memory (NVM) technologies show promise toward implementing bio-mimetic functionalities on single devices. In this article, we outline several strides that neuromorphic computing based on spiking neural networks (SNNs) has taken over the recent past, and we present our outlook on the challenges that this field needs to overcome to make the bio-plausibility route a successful one.},
+  langid = {english},
+  keywords = {/unread},
+  file = {C\:\\Users\\onepi\\OneDrive\\LogSync\\Zotero\\Rathi et al. - 2023 - Exploring Neuromorphic Computing Based on Spiking Neural Networks Algorithms to Hardware.pdf;C\:\\Users\\onepi\\Zotero\\storage\\T2L5ZEAC\\3571155.html}
+}
+
+@inproceedings{reddyEmpiricalCPUPower2017,
+  title = {Empirical {{CPU}} Power Modelling and Estimation in the Gem5 Simulator},
+  booktitle = {2017 27th {{International Symposium}} on {{Power}} and {{Timing Modeling}}, {{Optimization}} and {{Simulation}} ({{PATMOS}})},
+  author = {Reddy, Basireddy Karunakar and Walker, Matthew J. and Balsamo, Domenico and Diestelhorst, Stephan and {Al-Hashimi}, Bashir M. and Merrett, Geoff V.},
+  year = {2017},
+  month = sep,
+  pages = {1--8},
+  publisher = {{IEEE}},
+  address = {{Thessaloniki}},
+  doi = {10.1109/PATMOS.2017.8106988},
+  urldate = {2024-01-10},
+  abstract = {Power modelling is important for modern CPUs to inform power management approaches and allow design space exploration. Power simulators, combined with a full-system architectural simulator such as gem5, enable power-performance trade-offs to be investigated early in the design of a system with different configurations (e.g number of cores, cache size, etc.). However, the accuracy of existing power simulators, such as McPAT, is known to be low due to the abstraction and specification errors, and this can lead to incorrect research conclusions. In this paper, we present an accurate power model, built from measured data, integrated into gem5 for estimating the power consumption of a simulated quad-core ARM CortexA15. A power modelling methodology based on Performance Monitoring Counters (PMCs) is used to build and evaluate the integrated model in gem5. We first validate this methodology on the real hardware with 60 workloads at nine Dynamic Voltage and Frequency Scaling (DVFS) levels and four core mappings (2,160 samples), showing an average error between estimated and real measured power of less than 6\%. Correlation between gem5 activity statistics and hardware PMCs is investigated to build a gem5 model representing a quad-core ARM Cortex-A15. Experimental validation with 15 workloads at four DVFS levels on real hardware and gem5 has been conducted to understand how the difference between the gem5 simulated activity statistics and the hardware PMCs affects the estimated power consumption.},
+  isbn = {978-1-5090-6462-5},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\ZVJDL9MD\Reddy et al. - 2017 - Empirical CPU power modelling and estimation in the gem5 simulator.pdf}
+}
+
+@article{renSCDCNNHighlyScalableDeep2016,
+  title = {{{SC-DCNN}}: {{Highly-Scalable Deep Convolutional Neural Network}} Using {{Stochastic Computing}}},
+  shorttitle = {{{SC-DCNN}}},
+  author = {Ren, Ao and Li, Ji and Li, Zhe and Ding, Caiwen and Qian, Xuehai and Qiu, Qinru and Yuan, Bo and Wang, Yanzhi},
+  year = {2016},
+  month = nov,
+  journal = {ACM SIGOPS Operating Systems Review},
+  volume = {51},
+  doi = {10.1145/3093315.3037746},
+  abstract = {With the recent advance of wearable devices and Internet of Things (IoTs), it becomes attractive to implement the Deep Convolutional Neural Networks (DCNNs) in embedded and portable systems. Currently, executing the software-based DCNNs requires high-performance servers, restricting the widespread deployment on embedded and mobile IoT devices. To overcome this obstacle, considerable research efforts have been made to develop highly-parallel and specialized DCNN accelerators using GPGPUs, FPGAs or ASICs. Stochastic Computing (SC), which uses a bit-stream to represent a number within [-1, 1] by counting the number of ones in the bit-stream, has high potential for implementing DCNNs with high scalability and ultra-low hardware footprint. Since multiplications and additions can be calculated using AND gates and multiplexers in SC, significant reductions in power (energy) and hardware footprint can be achieved compared to the conventional binary arithmetic implementations. The tremendous savings in power (energy) and hardware resources allow immense design space for enhancing scalability and robustness for hardware DCNNs. This paper presents SC-DCNN, the first comprehensive design and optimization framework of SC-based DCNNs, using a bottom-up approach. We first present the designs of function blocks that perform the basic operations in DCNN, including inner product, pooling, and activation function. Then we propose four designs of feature extraction blocks, which are in charge of extracting features from input feature maps, by connecting different basic function blocks with joint optimization. Moreover, the efficient weight storage methods are proposed to reduce the area and power (energy) consumption. Putting all together, with feature extraction blocks carefully selected, SC-DCNN is holistically optimized to minimize area and power (energy) consumption while maintaining high network accuracy. Experimental results demonstrate that the LeNet5 implemented in SC-DCNN consumes only 17 mm{$^2$} area and 1.53 W power, achieves throughput of 781250 images/s, area efficiency of 45946 images/s/mm{$^2$}, and energy efficiency of 510734 images/J.},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Ren et al. - 2016 - SC-DCNN Highly-Scalable Deep Convolutional Neural Network using Stochastic Computing.pdf}
+}
+
+@inproceedings{rethinagiriSystemlevelPowerEstimation2014,
+  title = {System-Level Power Estimation Tool for Embedded Processor Based Platforms},
+  booktitle = {Proceedings of the 6th {{Workshop}} on {{Rapid Simulation}} and {{Performance Evaluation}}: {{Methods}} and {{Tools}}},
+  author = {Rethinagiri, Santhosh Kumar and Palomar, Oscar and Ben Atitallah, Rabie and Niar, Smail and Unsal, Osman and Kestelman, Adrian Cristal},
+  year = {2014},
+  month = jan,
+  pages = {1--8},
+  publisher = {{ACM}},
+  address = {{Vienna Austria}},
+  doi = {10.1145/2555486.2555491},
+  urldate = {2024-01-10},
+  abstract = {Due to the ever increasing constraints on power consumption in embedded systems, this paper addresses the need for an efficient power modeling and estimation methodology based tool at system-level. On the one hand, today's embedded industries focus more on manufacturing RISC processor-based platforms as they are cost and power effective. On the other hand, modern embedded applications are becoming more and more sophisticated and resource demanding: multimedia (H.264 encoder and decoder), software defined radio, GPS, mobile applications, etc. The main objective of this paper focuses on the scarcity of a fast power modeling and an accurate power estimation tool at the system-level for complex embedded systems. In this paper, we propose a standalone simulation tool for power estimation at system-level. As a first step, we develop the power models at the functional level. This is done by characterizing the power behavior of RISC processor based platforms across a wide spectrum of application benchmark to understand their power profile. Then, we propose power models to cost-effectively estimate its power at run-time of complex embedded applications. The proposed power models rely on a few parameters which are based on functional blocks of the processor architecture. As a second step, we propose a power estimation simulator which is based on cycle-accurate full system simulation framework. The combination of the above two steps provides a standalone power estimation tool at the system-level.  The effectiveness of our proposed methodology is validated through an ARM9, an ARM Cortex-A8 and an ARM Cortex-A9 processor designed around the OMAP5912, OMAP 3530 and OMAP4430 boards respectively. The efficiency and the accuracy of our proposed tool is evaluated by using a variety of basic programs to complex benchmarks. Estimated power values are compared to real board measurements for the different processor architecture based platforms. Our obtained power estimation results provide less than 3\% of error for ARM940T processor, 2.9\% for ARM Cortex-A8 processor and 4.2\% for ARM Cortex-A9 processor based platforms when compared to the other state-of-the-art power estimation tools.},
+  isbn = {978-1-4503-2471-7},
+  langid = {english},
+  keywords = {/unread},
+  note = {[TLDR] This paper proposes a standalone simulation tool for power estimation at system-level based on a power estimation simulator which is based on cycle-accurate full system simulation framework and proposes power models to cost-effectively estimate its power at run-time of complex embedded applications.},
+  file = {C:\Users\onepi\Zotero\storage\BG944L4R\Rethinagiri et al. - 2014 - System-level power estimation tool for embedded processor based platforms.pdf}
+}
+
+@article{rothmannSurveyDomainSpecificArchitectures2022,
+  title = {A {{Survey}} of {{Domain-Specific Architectures}} for {{Reinforcement Learning}}},
+  author = {Rothmann, Marc and Porrmann, Mario},
+  year = {2022},
+  journal = {IEEE Access},
+  volume = {10},
+  pages = {13753--13767},
+  issn = {2169-3536},
+  doi = {10.1109/ACCESS.2022.3146518},
+  urldate = {2024-01-09},
+  abstract = {Reinforcement learning algorithms have been very successful at solving sequential decision-making problems in many different problem domains. However, their training is often timeconsuming, with training times ranging from multiple hours to weeks. The development of domain-specific architectures for reinforcement learning promises faster computation times, decreased experiment turnaround time, and improved energy efficiency. This paper presents a review of hardware architectures for the acceleration of reinforcement learning algorithms. FPGA-based implementations are the focus of this work, but GPU-based approaches are considered as well. Both tabular and deep reinforcement learning algorithms are included in this survey. The techniques employed in different implementations are highlighted and compared. Finally, possible areas for future work are suggested, based on the preceding discussion of existing architectures.},
+  langid = {english},
+  annotation = {QID: Q124287385},
+  file = {C:\Users\onepi\Zotero\storage\I84ZRD82\Rothmann and Porrmann - 2022 - A Survey of Domain-Specific Architectures for Reinforcement Learning.pdf}
+}
+
+@inproceedings{sanniFPGAImplementationDeep2015,
+  title = {{{FPGA}} Implementation of a {{Deep Belief Network}} Architecture for Character Recognition Using Stochastic Computation},
+  booktitle = {2015 49th {{Annual Conference}} on {{Information Sciences}} and {{Systems}} ({{CISS}})},
+  author = {Sanni, Kayode and Garreau, Guillaume and Molin, Jamal Lottier and Andreou, Andreas G.},
+  year = {2015},
+  month = mar,
+  pages = {1--5},
+  publisher = {{IEEE}},
+  address = {{Baltimore, MD, USA}},
+  doi = {10.1109/CISS.2015.7086904},
+  urldate = {2023-09-08},
+  abstract = {Deep Neural Networks (DNNs) have proven very effec\- tive for classification and generative tasks, and are widely adapted in a variety of fields including vision, robotics, speech processing, and more. Specifically, Deep Belief Networks (DBNs), are graphical model constructed of multiple layers of nodes connected as Markov random fields, have been successfully implemented for tackling such tasks. However, because of the numerous connections between nodes in the networks, DBNs suffer a drawback of being computational intensive. In this work, we exploit an alternative approach based on computation on probabilistic unary streams for designing a more efficient deep neural network architecture for classification.},
+  isbn = {978-1-4799-8428-2},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  note = {Read},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Sanni et al. - 2015 - FPGA implementation of a Deep Belief Network architecture for character recognition using stochastic.pdf}
+}
+
+@article{scheffelSimulationRISCVBased,
+  title = {Simulation of {{RISC-V}} Based {{Systems}} in Gem5},
+  author = {Scheffel, Robert},
+  keywords = {*,/unread},
+  file = {C:\Users\onepi\Zotero\storage\GV5KIU5G\Scheffel - Simulation of RISC-V based Systems in gem5.pdf}
+}
+
+@article{shiConceptCMOSImage,
+  title = {Concept for a {{CMOS Image Sensor Suited}} for {{Analog Image Pre-Processing}}},
+  author = {Shi, Lan and Soell, Christopher and Baenisch, Andreas and Weigel, Robert and Seiler, Jurgen and Ussmueller, Thomas},
+  abstract = {A concept for a novel CMOS image sensor suited for analog image pre-processing is presented in this paper. As an example, an image restoration algorithm for reducing image noise is applied as image pre-processing in the analog domain. To supply low-latency data input for analog image preprocessing, the proposed concept for a CMOS image sensor offers a new sensor signal acquisition method in 2D. In comparison to image pre-processing in the digital domain, the proposed analog image pre-processing promises an improved image quality. Furthermore, the image noise at the stage of analog sensor signal acquisition can be used to select the most effective restoration algorithm applied to the analog circuit due to image processing prior to the A/D converter.},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\FAFGQ5KX\Shi et al. - Concept for a CMOS Image Sensor Suited for Analog Image Pre-Processing.pdf}
+}
+
+@article{shresthaSurveyNeuromorphicComputing2022,
+  title = {A {{Survey}} on {{Neuromorphic Computing}}: {{Models}} and {{Hardware}}},
+  shorttitle = {A {{Survey}} on {{Neuromorphic Computing}}},
+  author = {Shrestha, Amar and Fang, Haowen and Mei, Zaidao and Rider, Daniel Patrick and Wu, Qing and Qiu, Qinru},
+  year = 2022,
+  journal = {IEEE Circuits and Systems Magazine},
+  volume = {22},
+  number = {2},
+  pages = {6--35},
+  issn = {1531-636X, 1558-0830},
+  doi = {10.1109/MCAS.2022.3166331},
+  urldate = {2023-12-31},
+  abstract = {The explosion of ``big data'' applications imposes severe challenges of speed and scalability on traditional computer systems. As the performance of traditional Von Neumann machines is greatly hindered by the increasing performance gap between CPU and memory (``known as the memory wall''), neuromorphic computing systems have gained considerable attention. The biology-plausible computing paradigm carries out computing by emulating the charging/discharging process of neuron and synapse potential. The unique spike domain information encoding enables asynchronous event driven computation and communication, and hence has the potential for very high energy efficiency. This survey reviews computing models and hardware platforms of existing neuromorphic computing systems. Neuron and synapse models are first introduced, followed by the discussion on how they will affect hardware design. Case studies of several representative hardware platforms, including their architecture and software ecosystems, are further presented. Lastly we present several future research directions.},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\8CMY6BKY\Shrestha et al. - 2022 - A Survey on Neuromorphic Computing Models and Hardware.pdf}
+}
+
+@article{sunHardwareAccelerationPostdecision2022,
+  title = {Hardware {{Acceleration}} for {{Postdecision State Reinforcement Learning}} in {{IoT Systems}}},
+  author = {Sun, Jianchi and Sharma, Nikhilesh and Chakareski, Jacob and Mastronarde, Nicholas and Lao, Yingjie},
+  year = {2022},
+  month = jun,
+  journal = {IEEE Internet of Things Journal},
+  volume = {9},
+  number = {12},
+  pages = {9889--9903},
+  issn = {2327-4662, 2372-2541},
+  doi = {10.1109/JIOT.2022.3163364},
+  urldate = {2023-10-17},
+  abstract = {Reinforcement learning (RL) is increasingly being used to optimize resource-constrained wireless Internet of Things (IoT) devices. However, existing RL algorithms that are lightweight enough to be implemented on these devices, such as Q-learning, converge too slowly to effectively adapt to the experienced information source and channel dynamics, while deep RL algorithms are too complex to be implemented on these devices. By integrating basic models of the IoT system into the learning process, so-called post-decision state (PDS) based RL can achieve faster convergence speeds than these alternative approaches at lower complexity than deep RL; however, its complexity may still hinder the real-time and energy-efficient operations on IoT devices. In this paper, we develop efficient hardware accelerators for PDS-based RL. We first develop an arithmetic hardware acceleration architecture and then propose a stochastic computing (SC) based reconfigurable hardware architecture. By using simple bit-wise computations enabled by SC, we eliminate costly multiplications involved in PDS learning, which simultaneously reduces the hardware area and power consumption. We show that the computational efficiency can be further improved by using extremely short stochastic representations without sacrificing learning performance. We demonstrate our proposed approach on a simulated wireless IoT sensor that must transmit delay-sensitive data over a fading channel while minimizing its energy consumption. Our experimental results show that our arithmetic accelerator is 5.3{\texttimes} faster than Qlearning and 2.6{\texttimes} faster than a baseline hardware architecture, while the proposed SC-based architecture further reduces the critical path of the arithmetic accelerator by 87.9\%.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  annotation = {QID: Q113813639},
+  file = {C:\Users\onepi\Zotero\storage\QHPL28QF\Sun et al. - 2022 - Hardware Acceleration for Postdecision State Reinforcement Learning in IoT Systems.pdf}
+}
+
+@article{temenosMarkovChainFramework2023a,
+  title = {A {{Markov Chain Framework}} for {{Modeling}} the {{Statistical Properties}} of {{Stochastic Computing Finite-State Machines}}},
+  author = {Temenos, Nikos and Sotiriadis, Paul P.},
+  year = {2023},
+  month = jun,
+  journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  volume = {42},
+  number = {6},
+  pages = {1965--1977},
+  issn = {0278-0070, 1937-4151},
+  doi = {10.1109/TCAD.2022.3211487},
+  urldate = {2024-01-08},
+  abstract = {A general methodology to derive analytically the statistical properties of Stochastic Computing Finite-State Machines (SFSM) is introduced. The SFSMs, expressed as Moore ones, are modeled using Markov Chains, enabling the derivation in closed form of their output sequences' statistical properties, including their expected value, their auto- \& cross-correlation, their auto- \& cross-covariance, their variance and standard deviation as well as their mean squared error. A MC overflow/underflow probability model accompanies the methodology, allowing to calculate analytically the expected number of steps before overflows/underflows, setting the guidelines to select the register's size that reduces erroneous bits originating from them. In the proposed methodology both the input sequence length and the number of the SFSMs' states are considered as parameters, accelerating the overall design procedure as the necessity for multiple time-consuming numerical simulations is eliminated. The proposed methodology's accurate modeling capabilities are demonstrated with its application in two SFSMs selected from the SC literature, while comparisons with the numerical experiments justify its correctness.},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\SK7BSGNY\Temenos and Sotiriadis - 2023 - A Markov Chain Framework for Modeling the Statistical Properties of Stochastic Computing Finite-Stat.pdf}
+}
+
+@article{temenosStochasticComputingMax2021,
+  title = {Stochastic {{Computing Max}} \& {{Min Architectures Using Markov Chains}}: {{Design}}, {{Analysis}}, and {{Implementation}}},
+  shorttitle = {Stochastic {{Computing Max}} \& {{Min Architectures Using Markov Chains}}},
+  author = {Temenos, Nikos and Sotiriadis, Paul P.},
+  year = {2021},
+  month = nov,
+  journal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  volume = {29},
+  number = {11},
+  pages = {1813--1823},
+  issn = {1063-8210, 1557-9999},
+  doi = {10.1109/TVLSI.2021.3114424},
+  urldate = {2024-01-08},
+  abstract = {Max \& min architectures for stochastic computing (SC) are introduced. Their key characteristic is the utilization of an accumulator to store the signed difference between the two inputs, without randomizing sources. This property results in fast-converging and highly accurate computations using short sequence lengths, improving on the latency{\textendash}accuracy tradeoff of existing SC max{\textendash}min architectures. The operation of the proposed architectures is modeled using Markov Chains, resulting in in-depth analysis, the derivation of their statistical properties, and guidelines for selecting the register's size to achieve overall design optimization. The computational accuracy and the hardware requirements of the proposed architectures are compared to those of existing ones in the SC literature, using MATLAB and Synopsys Tools. The efficacy of the proposed architectures is demonstrated by realizing a 3 {\texttimes} 3 median filter and using it in an image processing application.},
+  langid = {english},
+  file = {C:\Users\onepi\Zotero\storage\JIA5DUBD\Temenos and Sotiriadis - 2021 - Stochastic Computing Max & Min Architectures Using Markov Chains Design, Analysis, and Implementati.pdf}
+}
+
+@article{tingDesignSequentialStochastic,
+  title = {Design of {{Sequential Stochastic Computing Systems}}},
+  author = {Ting, Paishun},
+  langid = {english},
+  keywords = {/unread,PhD Thesis},
+  file = {C:\Users\onepi\Zotero\storage\SMWLP6NA\Ting - Design of Sequential Stochastic Computing Systems.pdf}
+}
+
+@inproceedings{tingStochasticLogicRealization2014,
+  title = {Stochastic {{Logic Realization}} of {{Matrix Operations}}},
+  booktitle = {2014 17th {{Euromicro Conference}} on {{Digital System Design}}},
+  author = {Ting, Pai-Shun and Hayes, John Patrick},
+  year = {2014},
+  month = aug,
+  pages = {356--364},
+  publisher = {{IEEE}},
+  address = {{Verona, Italy}},
+  doi = {10.1109/DSD.2014.75},
+  urldate = {2023-09-19},
+  abstract = {Stochastic computing (SC) is a re-emerging technique to process probability data encoded in digital bitstreams. Its main advantage is that arithmetic operations can be implemented by extremely small and low-power logic circuits. This makes SC suitable for signal-processing applications involving matrix operations whose VLSI implementation is very costly. Previous SC approaches only address basic matrix operations with relatively low accuracy needs. We explore the use of SC to implement a representative complex matrix operation, namely eigenvector computation. We apply it to a training task for visual face recognition, and show that our SC design has performance comparable to its conventional binary counterpart, while being able to trade computation time for accuracy.},
+  isbn = {978-1-4799-5793-4},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Ting and Hayes - 2014 - Stochastic Logic Realization of Matrix Operations.pdf}
+}
+
+@inproceedings{umurogluFINNFrameworkFast2017,
+  title = {{{FINN}}: {{A Framework}} for {{Fast}}, {{Scalable Binarized Neural Network Inference}}},
+  shorttitle = {{{FINN}}},
+  booktitle = {Proceedings of the 2017 {{ACM}}/{{SIGDA International Symposium}} on {{Field-Programmable Gate Arrays}}},
+  author = {Umuroglu, Yaman and Fraser, Nicholas J. and Gambardella, Giulio and Blott, Michaela and Leong, Philip and Jahre, Magnus and Vissers, Kees},
+  year = {2017},
+  month = feb,
+  eprint = {1612.07119},
+  primaryclass = {cs},
+  pages = {65--74},
+  doi = {10.1145/3020078.3021744},
+  urldate = {2024-01-10},
+  abstract = {Research has shown that convolutional neural networks contain significant redundancy, and high classification accuracy can be obtained even when weights and activations are reduced from floating point to binary values. In this paper, we present FINN, a framework for building fast and flexible FPGA accelerators using a flexible heterogeneous streaming architecture. By utilizing a novel set of optimizations that enable efficient mapping of binarized neural networks to hardware, we implement fully connected, convolutional and pooling layers, with per-layer compute resources being tailored to user-provided throughput requirements. On a ZC706 embedded FPGA platform drawing less than 25 W total system power, we demonstrate up to 12.3 million image classifications per second with 0.31 \{{\textbackslash}mu\}s latency on the MNIST dataset with 95.8\% accuracy, and 21906 image classifications per second with 283 \{{\textbackslash}mu\}s latency on the CIFAR-10 and SVHN datasets with respectively 80.1\% and 94.9\% accuracy. To the best of our knowledge, ours are the fastest classification rates reported to date on these benchmarks.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {/unread,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Hardware Architecture,Computer Science - Machine Learning},
+  note = {Comment: To appear in the 25th International Symposium on Field-Programmable Gate Arrays, February 2017},
+  file = {C:\Users\onepi\Zotero\storage\NIHKTVX7\Umuroglu et al. - 2017 - FINN A Framework for Fast, Scalable Binarized Neural Network Inference.pdf}
+}
+
+@article{walkerAccurateStableRunTime2017,
+  title = {Accurate and {{Stable Run-Time Power Modeling}} for {{Mobile}} and {{Embedded CPUs}}},
+  author = {Walker, Matthew J. and Diestelhorst, Stephan and Hansson, Andreas and Das, Anup K. and Yang, Sheng and {Al-Hashimi}, Bashir M. and Merrett, Geoff V.},
+  year = {2017},
+  month = jan,
+  journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  volume = {36},
+  number = {1},
+  pages = {106--119},
+  issn = {0278-0070, 1937-4151},
+  doi = {10.1109/TCAD.2016.2562920},
+  urldate = {2023-12-31},
+  abstract = {Modern mobile and embedded devices are required to be increasingly energy-efficient while running more sophisticated tasks, causing the CPU design to become more complex and employ more energy-saving techniques. This has created a greater need for fast and accurate power estimation frameworks for both run-time CPU energy management and design-space exploration. We present a statistically rigorous and novel methodology for building accurate run-time power models using Performance Monitoring Counters (PMCs) for mobile and embedded devices, and demonstrate how our models make more efficient use of limited training data and better adapt to unseen scenarios by uniquely considering stability. Our robust model formulation reduces multicollinearity, allows separation of static and dynamic power, and allows a 100{\texttimes} reduction in experiment time while sacrificing only 0.6\% accuracy. We present a statistically detailed evaluation of our model, highlighting and addressing the problem of heteroscedasticity in power modeling. We present software implementing our methodology and build power models for ARM Cortex-A7 and Cortex-A15 CPUs, with 3.8\% and 2.8\% average error, respectively. We model the behavior of the nonideal CPU voltage regulator under dynamic CPU activity to improve modeling accuracy by up to 5.5\% in situations where the voltage cannot be measured. To address the lack of research utilizing PMC data from real mobile devices, we also present our data acquisition method and experimental platform software. We support this work with online resources including software tools, documentation, raw data and further results.},
+  langid = {english},
+  keywords = {/unread},
+  annotation = {QID: Q62633651},
+  file = {C:\Users\onepi\Zotero\storage\YV7GLHRD\Walker et al. - 2017 - Accurate and Stable Run-Time Power Modeling for Mobile and Embedded CPUs.pdf}
+}
+
+@article{wanSensorComputingMaterials2023,
+  title = {In-{{Sensor Computing}}: {{Materials}}, {{Devices}}, and {{Integration Technologies}}},
+  shorttitle = {In-{{Sensor Computing}}},
+  author = {Wan, Tianqing and Shao, Bangjie and Ma, Sijie and Zhou, Yue and Li, Qiao and Chai, Yang},
+  year = {2023},
+  month = sep,
+  journal = {Advanced Materials},
+  volume = {35},
+  number = {37},
+  pages = {2203830},
+  issn = {0935-9648, 1521-4095},
+  doi = {10.1002/adma.202203830},
+  urldate = {2023-11-06},
+  abstract = {Abstract             The number of sensor nodes in the Internet of Things is growing rapidly, leading to a large volume of data generated at sensory terminals. Frequent data transfer between the sensors and computing units causes severe limitations on the system performance in terms of energy efficiency, speed, and security. To efficiently process a substantial amount of sensory data, a novel computation paradigm that can integrate computing functions into sensor networks should be developed. The in-sensor computing paradigm reduces data transfer and also decreases the high computing complexity by processing data locally. Here, the hardware implementation of the in-sensor computing paradigm at the device and array levels is discussed. The physical mechanisms that lead to unique sensory response characteristics and their corresponding computing functions are illustrated. In particular, bioinspired device characteristics enable the implementation of the functionalities of neuromorphic computation. The integration technology is also discussed and the perspective on the future development of in-sensor computing is provided.},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\BIA8ULXU\Wan et al. - 2023 - In‐Sensor Computing Materials, Devices, and Integration Technologies.pdf}
+}
+
+@inproceedings{wennekersAnalysisSpatiotemporalPatterns1999,
+  title = {Analysis of Spatio-Temporal Patterns in Associative Networks of Spiking Neurons},
+  booktitle = {9th {{International Conference}} on {{Artificial Neural Networks}}: {{ICANN}} '99},
+  author = {Wennekers, T.},
+  year = {1999},
+  volume = {1999},
+  pages = {245--250},
+  publisher = {{IEE}},
+  address = {{Edinburgh, UK}},
+  doi = {10.1049/cp:19991116},
+  urldate = {2023-09-19},
+  abstract = {A neural network is presented that stores spatio-temporal patterns (synfirechains) an associative networks of spiking neurons and replays them at a controlable speed. An implicit equation is derived and solved numerically which relates the average speed t o the network parameters. The replay speed can be controled by unspecific background signals and also depends o n the number of co-activated synfire-chains. Balanced inhibition can prevent the latter dependency. Simulation results confirm the theory, but reveal instabilities for low and high control signals. These boundaries are traced back t o four different destabilizing mechanisms.},
+  isbn = {978-0-85296-721-8},
+  langid = {english},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Wennekers - 1999 - Analysis of spatio-temporal patterns in associative networks of spiking neurons.pdf}
+}
+
+@article{wuDiaNetElasticNeural2021,
+  title = {{{DiaNet}}: {{An}} Elastic Neural Network for Effectively Re-Configurable Implementation},
+  shorttitle = {{{DiaNet}}},
+  author = {Wu, Man and Kan, Yirong and Erlina, Tati and Zhang, Renyuan and Nakashima, Yasuhiko},
+  year = {2021},
+  month = nov,
+  journal = {Neurocomputing},
+  volume = {464},
+  pages = {242--251},
+  issn = {0925-2312},
+  doi = {10.1016/j.neucom.2021.08.059},
+  urldate = {2023-09-24},
+  abstract = {An elastic neural network is developed and evolved towards effectively re-configurable hardware in fully parallel on chip. The original prototype of DiaNet is organized as a symmetrical bisection neural network, which is feasible to be partitioned into arbitrary pieces of neural networks (NNs) without redundancy. To prevent the depth explosion in implementing complex tasks (complicated pattern recognition for instance), the evolution of DiaNets is investigated in this work. By using the I/O layer integration technology which enables all neurons in the hidden layer of DiaNet to receive inputs, the number of layers is reduced to 8.8\% of DiaNet prototype. In this manner, the DiaNet topology is feasible to implement complex NNs without the risk of depth explosion. Moreover, the skip connection technology is proposed to avoid the gradient vanishing due to deep learning, which is significant to DiaNets especially. Compared with the LeNet5 model as state-of-the-art, the evolved DiaNet topology achieves the parameter reduction of 90.86\% for MNIST recognition with the negligible loss of accuracy. To reduce hardware utilization, the sensitivity to the decline of computational precision and bit-width is investigated to suggest the guideline for efficient hardware implementations. Finally, the effectiveness of DiaNet is verified by the proposed re-configurable architecture on FPGA with the power reduction of 10.8\% compared to state-of-the-art implementations.},
+  keywords = {/unread,Highly parallel,Multi-grained reconfigurable,Neuromorphic architecture,Parameter reduction,Sparse neural network},
+  file = {C\:\\Users\\onepi\\Zotero\\storage\\H3AREVRX\\Wu et al. - 2021 - DiaNet An elastic neural network for effectively re-configurable implementation.pdf;C\:\\Users\\onepi\\Zotero\\storage\\S8VTN4KL\\S0925231221012492.html}
+}
+
+@inproceedings{wuNormalizedStabilityCrossLevel2021,
+  title = {Normalized {{Stability}}: {{A Cross-Level Design Metric}} for {{Early Termination}} in {{Stochastic Computing}}},
+  shorttitle = {Normalized {{Stability}}},
+  booktitle = {Proceedings of the 26th {{Asia}} and {{South Pacific Design Automation Conference}}},
+  author = {Wu, Di and Yin, Ruokai and Miguel, Joshua San},
+  year = {2021},
+  month = jan,
+  pages = {254--259},
+  publisher = {{ACM}},
+  address = {{Tokyo Japan}},
+  doi = {10.1145/3394885.3431549},
+  urldate = {2023-09-24},
+  abstract = {Stochastic computing is a statistical computing scheme that represents data as serial bit streams to greatly reduce hardware complexity. The key trade-off is that processing more bits in the streams yields higher computation accuracy at the cost of more latency and energy consumption. To maximize efficiency, it is desirable to account for the error tolerance of applications and terminate stochastic computations early when the result is acceptably accurate. Currently, the stochastic computing community lacks a standard means of measuring a circuit's potential for early termination and predicting at what cycle it would be safe to terminate. To fill this gap, we propose normalized stability, a metric that measures how fast a bit stream converges under a given accuracy budget. Our unit-level experiments show that normalized stability accurately reflects and contrasts the early-termination capabilities of varying stochastic computing units. Furthermore, our application-level experiments on low-density parity-check decoding, machine learning and image processing show that normalized stability can reduce the design space and predict the timing to terminate early.},
+  isbn = {978-1-4503-7999-1},
+  langid = {english},
+  keywords = {/unread,Stochastic Computing},
+  file = {C:\Users\onepi\Zotero\storage\UWHE4MFL\Wu et al. - 2021 - Normalized Stability A Cross-Level Design Metric for Early Termination in Stochastic Computing.pdf}
+}
+
+@inproceedings{wuUGEMMUnaryComputing2020,
+  title = {{{UGEMM}}: {{Unary Computing Architecture}} for {{GEMM Applications}}},
+  shorttitle = {{{UGEMM}}},
+  booktitle = {2020 {{ACM}}/{{IEEE}} 47th {{Annual International Symposium}} on {{Computer Architecture}} ({{ISCA}})},
+  author = {Wu, Di and Li, Jingjie and Yin, Ruokai and Hsiao, Hsuan and Kim, Younghyun and Miguel, Joshua San},
+  year = {2020},
+  month = may,
+  pages = {377--390},
+  publisher = {{IEEE}},
+  address = {{Valencia, Spain}},
+  doi = {10.1109/ISCA45697.2020.00040},
+  urldate = {2023-09-24},
+  abstract = {General matrix multiplication (GEMM) is universal in various applications, such as signal processing, machine learning, and computer vision. Conventional GEMM hardware architectures based on binary computing exhibit low area and energy efficiency as they scale due to the spatial nature of number representation and computing. Unary computing, on the other hand, can be performed with extremely simple processing units, often just with a single logic gate. But currently there exist no efficient architectures for unary GEMM.},
+  isbn = {978-1-72814-661-4},
+  langid = {english},
+  note = {``uGEMM: Unary Computing Architecture for GEMM Applications'' (Wu et al., 2020)
+\par
+Referred in \href{zotero://note/u/X9TRG7CA/?ignore=1&line=-1}{tags:: [[Stochastic Computing]]}
+\par
+``General matrix multiplication (GEMM) is universal in various applications, such as signal processing, machine learning, and computer vision.'' (Wu et al., 2020)
+\par
+``Unfortunately, existing unary computing systems based on rate coding, namely stochastic computing [14], fail to fully realize the benefit of high area and energy efficiency because processing units require uncorrelated bit streams or long, repeated bit streams as input. As a result, they suffer from either costly random number generators (RNGs) or long latency, both of which result in low energy efficiency.'' (Wu et al., 2020)},
+  file = {C:\Users\onepi\Zotero\storage\NTFSB9BH\Wu et al. - 2020 - UGEMM Unary Computing Architecture for GEMM Applications.pdf}
+}
+
+@article{wuUGEMMUnaryComputing2021,
+  title = {{{uGEMM}}: {{Unary Computing}} for {{GEMM Applications}}},
+  shorttitle = {{{uGEMM}}},
+  author = {Wu, Di and Li, Jingjie and Yin, Ruokai and Hsiao, Hsuan and Kim, Younghyun and Miguel, Joshua San},
+  year = {2021},
+  month = may,
+  journal = {IEEE Micro},
+  volume = {41},
+  number = {3},
+  pages = {50--56},
+  issn = {0272-1732, 1937-4143},
+  doi = {10.1109/MM.2021.3065369},
+  urldate = {2023-09-24},
+  langid = {english},
+  note = {\section{Annotations}
+
+\par
+``uGEMM: Unary Computing for GEMM Applications'' (Wu et al., 2021, p. 50)},
+  file = {C:\Users\onepi\Zotero\storage\2KP4ZGQP\Wu et al. - 2021 - uGEMM Unary Computing for GEMM Applications.pdf}
+}
+
+@inproceedings{wuUSystolicByteCrawlingUnary2022,
+  title = {{{uSystolic}}: {{Byte-Crawling Unary Systolic Array}}},
+  shorttitle = {{{uSystolic}}},
+  booktitle = {2022 {{IEEE International Symposium}} on {{High-Performance Computer Architecture}} ({{HPCA}})},
+  author = {Wu, Di and Miguel, Joshua San},
+  year = {2022},
+  month = apr,
+  pages = {12--24},
+  publisher = {{IEEE}},
+  address = {{Seoul, Korea, Republic of}},
+  doi = {10.1109/HPCA53966.2022.00010},
+  urldate = {2023-09-24},
+  abstract = {General matrix multiply (GEMM) is an important operation in broad applications, especially the thriving deep neural networks. To achieve low power consumption for GEMM, researchers have already leveraged unary computing, which manipulates bitstreams with extremely simple logic. However, existing unary architectures are not well generalizable to varying GEMM configurations in versatile applications and incompatible to the binary computing stack, imposing challenges to execute unary GEMM effortlessly. In this work, we address the problem by architecting a hybrid unary-binary systolic array, uSystolic, to inherit the legacy-binary data scheduling with slow (thus power-efficient) data movement, i.e., data bytes are crawling out from memory to drive uSystolic. uSystolic exhibits tremendous area and power improvements as a joint effect of 1) low-power computing kernel, 2) spatial-temporal bitstream reuse, and 3) on-chip SRAM elimination. For the evaluated edge computing scenario, compared with the binary parallel design, the ratedcoded uSystolic reduces the systolic array area and total on-chip area by 59.0\% and 91.3\%, with the on-chip energy and power efficiency improved by up to 112.2{\texttimes} and 44.8{\texttimes} for AlexNet.},
+  isbn = {978-1-66542-027-3},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\R7VT4ZKK\Wu and Miguel - 2022 - uSystolic Byte-Crawling Unary Systolic Array.pdf}
+}
+
+@misc{yangFIXARFixedPointDeep2021,
+  title = {{{FIXAR}}: {{A Fixed-Point Deep Reinforcement Learning Platform}} with {{Quantization-Aware Training}} and {{Adaptive Parallelism}}},
+  shorttitle = {{{FIXAR}}},
+  author = {Yang, Je and Hong, Seongmin and Kim, Joo-Young},
+  year = {2021},
+  month = feb,
+  number = {arXiv:2102.12103},
+  eprint = {2102.12103},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-12-31},
+  abstract = {Deep reinforcement learning (DRL) is a powerful technology to deal with decision-making problem in various application domains such as robotics and gaming, by allowing an agent to learn its action policy in an environment to maximize a cumulative reward. Unlike supervised models which actively use data quantization, DRL still uses the single-precision floating-point for training accuracy while it suffers from computationally intensive deep neural network (DNN) computations.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {/unread,Computer Science - Hardware Architecture,Computer Science - Machine Learning},
+  note = {Comment: This paper will be published in Proc. IEEE/ACM Design Automation Conference (DAC) 2021},
+  file = {C:\Users\onepi\Zotero\storage\94E3LYJ3\Yang et al. - 2021 - FIXAR A Fixed-Point Deep Reinforcement Learning Platform with Quantization-Aware Training and Adapt.pdf}
+}
+
+@article{yassinFastAccurateEdge2021,
+  title = {Fast and {{Accurate Edge Computing Energy Modeling}} and {{DVFS Implementation}} in {{GEM5 Using System Call Emulation Mode}}},
+  author = {Yassin, Yahya H. and Jahre, Magnus and Kjeldsberg, Per Gunnar and Aunet, Snorre and Catthoor, Francky},
+  year = {2021},
+  month = jan,
+  journal = {Journal of Signal Processing Systems},
+  volume = {93},
+  number = {1},
+  pages = {33--48},
+  issn = {1939-8115},
+  doi = {10.1007/s11265-020-01544-z},
+  urldate = {2023-12-31},
+  abstract = {Stringent power budgets in battery powered platforms have led to the development of energy saving techniques such as Dynamic Voltage and Frequency scaling (DVFS). For embedded system designers to be able to ripe the benefits of these techniques, support for efficient design space exploration must be available in system level simulators. The advent of the edge computing paradigm, with power constraints in the mW domain, has rendered this even more essential. Without a fast and accurate methodology for architecture simulation and energy estimation, the benefit of new ideas and solutions cannot be evaluated. In this paper, we propose a non-intrusive application controlled DVFS management implementation in the GEM5 simulator, used with GEM5's system call emulation mode. We also propose a novel architecture independent energy model based on categorization of different measurable workload classes. Our energy model is parametrized and calibrated with power measurements on a SAM4L microcontroller board, containing an ARM Cortex M4 processor. Together with the GEM5 output statistics, the model accurately estimates the total energy consumption of our simulated system. The results from our modified GEM5 simulator are validated with representative signal processing applications. After correction of systematic offset errors, our results deviate with less than 4\% compared to measurements from the SAM4L microcontroller. Our contributions in this paper can easily be tailored to other processor models in GEM5 and to future versions of GEM5. It will therefore enable system architects to explore new techniques and compare the improvements relative to existing architectures.},
+  langid = {english},
+  keywords = {*,/unread,DVFS,Edge computing,Embedded systems,Energy model,GEM5,System call emulation,System scenario},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Yassin et al. - 2021 - Fast and Accurate Edge Computing Energy Modeling and DVFS Implementation in GEM5 Using System Call E.pdf}
+}
+
+@inproceedings{yuanSoftmaxRegressionDesign2017,
+  title = {Softmax {{Regression Design}} for {{Stochastic Computing Based Deep Convolutional Neural Networks}}},
+  author = {Yuan, Zihao and Li, Ji and Li, Zhe and Ding, Caiwen and Ren, Ao and Yuan, Bo and Qiu, Qinru and Draper, Jeffrey and Wang, Yetang},
+  year = {2017},
+  month = may,
+  pages = {467--470},
+  doi = {10.1145/3060403.3060467},
+  abstract = {Recently, Deep Convolutional Neural Networks (DCNNs) have made tremendous advances, achieving close to or even better accuracy than human-level perception in various tasks. Stochastic Computing (SC), as an alternate to the conventional binary computing paradigm, has the potential to enable massively parallel and highly scalable hardware implementations of DCNNs. In this paper, we design and optimize the SC based Softmax Regression function. Experiment results show that compared with a binary SR, the proposed SC-SR under longer bit stream can reach the same level of accuracy with the improvement of 295X, 62X, 2617X in terms of power, area and energy, respectively. Binary SR is suggested for future DCNNs with short bit stream length input whereas SC-SR is recommended for longer bit stream.},
+  keywords = {Stochastic Computing},
+  file = {C:\Users\onepi\Zotero\storage\3DLRLMDX\Yuan et al. - 2017 - Softmax Regression Design for Stochastic Computing Based Deep Convolutional Neural Networks.pdf}
+}
+
+@inproceedings{yuceFastCircuitTopology2013,
+  title = {A {{Fast Circuit Topology}} for {{Finding}} the {{Maximum}} of {{N}} K-Bit {{Numbers}}},
+  booktitle = {2013 {{IEEE}} 21st {{Symposium}} on {{Computer Arithmetic}}},
+  author = {Yuce, B. and Ugurdag, H. F. and Goren, S. and Dundar, G.},
+  year = {2013},
+  month = apr,
+  pages = {59--66},
+  publisher = {{IEEE}},
+  address = {{Austin, TX}},
+  doi = {10.1109/ARITH.2013.35},
+  urldate = {2024-01-10},
+  abstract = {Finding the value and/or address (position) of the maximum element of a set of binary numbers is a fundamental arithmetic operation. Numerous systems, which are used in different application areas, require fast (lowlatency) circuits to carry out this operation. We propose a fast circuit topology called Array-Based maximum finder (AB) to determine both value and address of the maximum element within an n-element set of k-bit binary numbers. AB is based on carrying out all of the required comparisons in parallel and then simultaneously computing the address as well as the value of the maximum element. This approach ends up with only one comparator on the critical path, followed by some selection logic. The time complexity of the proposed architecture is O(log2n + log2k) whereas the area complexity is O(n2k). We developed RTL code generators for AB as well as its competitors. These generators are scalable to any value of n and k. We applied a standard-cell based iterative synthesis flow that finds the optimum time constraint through binary search. The synthesis results showed that AB is 1.2{\textendash}2.1 times (1.6 times on the average) faster than the state-of-the-art.},
+  isbn = {978-1-4673-5644-2},
+  langid = {english},
+  keywords = {/unread},
+  file = {C:\Users\onepi\Zotero\storage\8ZPHFG8G\Yuce et al. - 2013 - A Fast Circuit Topology for Finding the Maximum of N k-bit Numbers.pdf}
+}
+
+@article{zahariAnaloguePatternRecognition2020,
+  title = {Analogue Pattern Recognition with Stochastic Switching Binary {{CMOS-integrated}} Memristive Devices},
+  author = {Zahari, Finn and P{\'e}rez, Eduardo and Mahadevaiah, Mamathamba Kalishettyhalli and Kohlstedt, Hermann and Wenger, Christian and Ziegler, Martin},
+  year = {2020},
+  month = sep,
+  journal = {Scientific Reports},
+  volume = {10},
+  number = {1},
+  pages = {14450},
+  issn = {2045-2322},
+  doi = {10.1038/s41598-020-71334-x},
+  urldate = {2023-09-06},
+  abstract = {Abstract             Biological neural networks outperform current computer technology in terms of power consumption and computing speed while performing associative tasks, such as pattern recognition. The analogue and massive parallel in-memory computing in biology differs strongly from conventional transistor electronics that rely on the von Neumann architecture. Therefore, novel bio-inspired computing architectures have been attracting a lot of attention in the field of neuromorphic computing. Here, memristive devices, which serve as non-volatile resistive memory, are employed to emulate the plastic behaviour of biological synapses. In particular, CMOS integrated resistive random access memory (RRAM) devices are promising candidates to extend conventional CMOS technology to neuromorphic systems. However, dealing with the inherent stochasticity of resistive switching can be challenging for network performance. In this work, the probabilistic switching is exploited to emulate stochastic plasticity with fully CMOS integrated binary RRAM devices. Two different RRAM technologies with different device variabilities are investigated in detail, and their potential applications in stochastic artificial neural networks (StochANNs) capable of solving MNIST pattern recognition tasks is examined. A mixed-signal implementation with hardware synapses and software neurons combined with numerical simulations shows that the proposed concept of stochastic computing is able to process analogue data with binary memory cells.},
+  langid = {english},
+  keywords = {Stochastic Computing},
+  annotation = {QID: Q98906773},
+  note = {\section{Citations}
+
+\par
+Do not edit this note manually!
+\par
+[
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Sung Hyun",
+          "lastName": "Jo",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Ting",
+          "lastName": "Chang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Idongesit",
+          "lastName": "Ebong",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Bhavitavya B.",
+          "lastName": "Bhadviya",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Pinaki",
+          "lastName": "Mazumder",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Wei",
+          "lastName": "Lu",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Nanoscale memristor device as synapse in neuromorphic systems.",
+      "date": "2010-04-01",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q51717583",
+      "volume": "10",
+      "pages": "1297-1301",
+      "publicationTitle": "Nano Letters",
+      "DOI": "10.1021/NL904092H",
+      "issue": "4"
+    \},
+    "ocis": [
+      "01098906773-01051717583"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "J. Joshua",
+          "lastName": "Yang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Dmitri B.",
+          "lastName": "Strukov",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Duncan R.",
+          "lastName": "Stewart",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Memristive devices for computing",
+      "date": "2013-01-01",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q38069940",
+      "volume": "8",
+      "pages": "13-24",
+      "publicationTitle": "Nature Nanotechnology",
+      "DOI": "10.1038/NNANO.2012.240",
+      "issue": "1"
+    \},
+    "ocis": [
+      "01098906773-01038069940"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "C.",
+          "lastName": "Mead",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Neuromorphic electronic systems",
+      "date": "1990",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q56270917",
+      "volume": "78",
+      "pages": "1629-1636",
+      "publicationTitle": "Proceedings of the IEEE",
+      "DOI": "10.1109/5.58356",
+      "issue": "10"
+    \},
+    "ocis": [
+      "01098906773-01056270917"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "John",
+          "lastName": "Backus",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Can programming be liberated from the von Neumann style?: a functional style and its algebra of programs",
+      "date": "1978-08-01",
+      "language": "English",
+      "shortTitle": "Can programming be liberated from the von Neumann style?",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q55871509",
+      "volume": "21",
+      "pages": "613-641",
+      "publicationTitle": "Communications of the ACM",
+      "DOI": "10.1145/359576.359579",
+      "issue": "8"
+    \},
+    "ocis": [
+      "01098906773-01055871509"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "R. K.",
+          "lastName": "Cavin",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "P.",
+          "lastName": "Lugli",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "V. V.",
+          "lastName": "Zhirnov",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Science and Engineering Beyond Moore's Law",
+      "date": "2012-05",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q56070055",
+      "volume": "100",
+      "pages": "1720-1749",
+      "publicationTitle": "Proceedings of the IEEE",
+      "DOI": "10.1109/JPROC.2012.2190155",
+      "issue": "Special Centennial Issue"
+    \},
+    "ocis": [
+      "01098906773-01056070055"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Doo Seok",
+          "lastName": "Jeong",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Cheol Seong",
+          "lastName": "Hwang",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Nonvolatile Memory Materials for Neuromorphic Intelligent Machines",
+      "date": "2018-04-18",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q53694240",
+      "volume": "30",
+      "pages": "e1704729",
+      "publicationTitle": "Advanced Materials",
+      "DOI": "10.1002/ADMA.201704729",
+      "issue": "42"
+    \},
+    "ocis": [
+      "01098906773-01053694240"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "T. V.",
+          "lastName": "Bliss",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Timothy",
+          "lastName": "Bliss",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "T.",
+          "lastName": "Lomo",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+      "date": "1973-07",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "url": "http://jp.physoc.org/cgi/content/abstract/232/2/331, https://www.ncbi.nlm.nih.gov/pmc/articles/pmid/4727084/?tool=EBI, https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1113\%2Fjphysiol.1973.sp010273, http://onlinelibrary.wiley.com/wol1/doi/10.1113/jphysiol.1973.sp010273/fullpdf",
+      "accessDate": "2024-01-14 18:18:50",
+      "extra": "qid: Q24538964",
+      "volume": "232",
+      "pages": "331-56",
+      "publicationTitle": "Journal of Physiology",
+      "DOI": "10.1113/JPHYSIOL.1973.SP010273",
+      "issue": "2"
+    \},
+    "ocis": [
+      "01098906773-01024538964"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Bi",
+          "lastName": "GQ",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Guo-qiang",
+          "lastName": "Bi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Poo",
+          "lastName": "MM",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Mu-ming",
+          "lastName": "Poo",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type, Synaptic Modifications in Cultured Hippocampal Neurons: Dependence on Spike Timing, Synaptic Strength, and Postsynaptic Cell Type",
+      "date": "1998-12-15",
+      "language": "English",
+      "shortTitle": "Synaptic modifications in cultured hippocampal neurons",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q29619422",
+      "volume": "18",
+      "pages": "10464-72, 10464-10472",
+      "publicationTitle": "Journal of Neuroscience",
+      "DOI": "10.1523/JNEUROSCI.18-24-10464.1998",
+      "issue": "24"
+    \},
+    "ocis": [
+      "01098906773-01029619422"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Jun",
+          "lastName": "Izawa",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Reza",
+          "lastName": "Shadmehr",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "On-line processing of uncertain information in visuomotor control",
+      "date": "2008-10-01",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q30489634",
+      "volume": "28",
+      "pages": "11360-11368",
+      "publicationTitle": "Journal of Neuroscience",
+      "DOI": "10.1523/JNEUROSCI.3063-08.2008",
+      "issue": "44"
+    \},
+    "ocis": [
+      "01098906773-01030489634"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "A. Aldo",
+          "lastName": "Faisal",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Luc P. J.",
+          "lastName": "Selen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Daniel M.",
+          "lastName": "Wolpert",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Noise in the nervous system",
+      "date": "2008-04-01",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q37102165",
+      "volume": "9",
+      "pages": "292-303",
+      "publicationTitle": "Nature Reviews Neuroscience",
+      "DOI": "10.1038/NRN2258",
+      "issue": "4"
+    \},
+    "ocis": [
+      "01098906773-01037102165"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Nick",
+          "lastName": "Chater",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Joshua B.",
+          "lastName": "Tenenbaum",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Alan",
+          "lastName": "Yuille",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Probabilistic models of cognition: conceptual foundations.",
+      "date": "2006-06-27",
+      "shortTitle": "Probabilistic models of cognition",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q48484243",
+      "volume": "10",
+      "pages": "287-291",
+      "publicationTitle": "Trends in Cognitive Sciences",
+      "DOI": "10.1016/J.TICS.2006.05.007",
+      "issue": "7"
+    \},
+    "ocis": [
+      "01098906773-01048484243"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Konrad",
+          "lastName": "K{\"o}rding",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Daniel M.",
+          "lastName": "Wolpert",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Bayesian integration in sensorimotor learning.",
+      "date": "2004-01-01",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q48093846",
+      "volume": "427",
+      "pages": "244-247",
+      "publicationTitle": "Nature",
+      "DOI": "10.1038/NATURE02169",
+      "issue": "6971"
+    \},
+    "ocis": [
+      "01098906773-01048093846"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Paul A.",
+          "lastName": "Merolla",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "John V.",
+          "lastName": "Arthur",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Rodrigo",
+          "lastName": "Alvarez-Icaza",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Andrew S.",
+          "lastName": "Cassidy",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Jun",
+          "lastName": "Sawada",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Filipp",
+          "lastName": "Akopyan",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Bryan L.",
+          "lastName": "Jackson",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Nabil",
+          "lastName": "Imam",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Chen",
+          "lastName": "Guo",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yutaka",
+          "lastName": "Nakamura",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Bernard",
+          "lastName": "Brezzo",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Ivan",
+          "lastName": "Vo",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Steven K.",
+          "lastName": "Esser",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Rathinakumar",
+          "lastName": "Appuswamy",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Brian",
+          "lastName": "Taba",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Arnon",
+          "lastName": "Amir",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Myron D.",
+          "lastName": "Flickner",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "William P.",
+          "lastName": "Risk",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Rajit",
+          "lastName": "Manohar",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Dharmendra S.",
+          "lastName": "Modha",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Artificial brains. A million spiking-neuron integrated circuit with a scalable communication network and interface",
+      "date": "2014-08-07",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q34432877",
+      "volume": "345",
+      "pages": "668-673",
+      "publicationTitle": "Science",
+      "DOI": "10.1126/SCIENCE.1254642",
+      "issue": "6197"
+    \},
+    "ocis": [
+      "01098906773-01034432877"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Mike",
+          "lastName": "Davies",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Narayan",
+          "lastName": "Srinivasa",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Tsung-Han",
+          "lastName": "Lin",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Gautham",
+          "lastName": "Chinya",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yongqiang",
+          "lastName": "Cao",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Sri Harsha",
+          "lastName": "Choday",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Georgios",
+          "lastName": "Dimou",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Prasad",
+          "lastName": "Joshi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Nabil",
+          "lastName": "Imam",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Shweta",
+          "lastName": "Jain",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yuyun",
+          "lastName": "Liao",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Chit-Kwan",
+          "lastName": "Lin",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Andrew",
+          "lastName": "Lines",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Ruokun",
+          "lastName": "Liu",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Deepak",
+          "lastName": "Mathaikutty",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Steven",
+          "lastName": "McCoy",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Arnab",
+          "lastName": "Paul",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Jonathan",
+          "lastName": "Tse",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Guruguhanathan",
+          "lastName": "Venkataramanan",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yi-Hsin",
+          "lastName": "Weng",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Andreas",
+          "lastName": "Wild",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yoonseok",
+          "lastName": "Yang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Hong",
+          "lastName": "Wang",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Loihi: A Neuromorphic Manycore Processor with On-Chip Learning",
+      "date": "2018-01",
+      "shortTitle": "Loihi",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q60015880",
+      "volume": "38",
+      "pages": "82-99",
+      "publicationTitle": "IEEE Micro",
+      "DOI": "10.1109/MM.2018.112130359",
+      "issue": "1"
+    \},
+    "ocis": [
+      "01098906773-01060015880"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Saber",
+          "lastName": "Moradi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Ning",
+          "lastName": "Qiao",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Fabio",
+          "lastName": "Stefanini",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Giacomo",
+          "lastName": "Indiveri",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "A Scalable Multicore Architecture With Heterogeneous Memory Structures for Dynamic Neuromorphic Asynchronous Processors (DYNAPs)",
+      "date": "2018-02-01",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q48502835",
+      "volume": "12",
+      "pages": "106-122",
+      "publicationTitle": "IEEE Transactions on Biomedical Circuits and Systems",
+      "DOI": "10.1109/TBCAS.2017.2759700",
+      "issue": "1"
+    \},
+    "ocis": [
+      "01098906773-01048502835"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "L.",
+          "lastName": "Chua",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Memristor-The missing circuit element",
+      "date": "1971",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q55878299",
+      "volume": "18",
+      "pages": "507-519",
+      "publicationTitle": "IEEE Transactions on Circuit Theory",
+      "DOI": "10.1109/TCT.1971.1083337",
+      "issue": "5"
+    \},
+    "ocis": [
+      "01098906773-01055878299"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Rainer",
+          "lastName": "Waser",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Regina",
+          "lastName": "Dittmann",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Stephan",
+          "lastName": "Menzel",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Tobias",
+          "lastName": "Noll",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Introduction to new memory paradigms: memristive phenomena and neuromorphic applications",
+      "date": "2019-02-01",
+      "shortTitle": "Introduction to new memory paradigms",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q91443926",
+      "volume": "213",
+      "pages": "11-27",
+      "publicationTitle": "Faraday Discussions",
+      "DOI": "10.1039/C8FD90058B",
+      "issue": "0"
+    \},
+    "ocis": [
+      "01098906773-01091443926"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Tayfun",
+          "lastName": "Gokmen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yurii",
+          "lastName": "Vlasov",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Acceleration of Deep Neural Network Training with Resistive Cross-Point Devices: Design Considerations",
+      "date": "2016-07-21",
+      "shortTitle": "Acceleration of Deep Neural Network Training with Resistive Cross-Point Devices",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q30377170",
+      "volume": "10",
+      "pages": "333",
+      "publicationTitle": "Frontiers in Neuroscience",
+      "DOI": "10.3389/FNINS.2016.00333"
+    \},
+    "ocis": [
+      "01098906773-01030377170"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Peng",
+          "lastName": "Yao",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Huaqiang",
+          "lastName": "Wu",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Bin",
+          "lastName": "Gao",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Jianshi",
+          "lastName": "Tang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Qingtian",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Wenqiang",
+          "lastName": "Zhang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "J. Joshua",
+          "lastName": "Yang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "He",
+          "lastName": "Qian",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Fully hardware-implemented memristor convolutional neural network",
+      "date": "2020-01-29",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q87193199",
+      "volume": "577",
+      "pages": "641-646",
+      "publicationTitle": "Nature",
+      "DOI": "10.1038/S41586-020-1942-4",
+      "issue": "7792"
+    \},
+    "ocis": [
+      "01098906773-01087193199"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Qiangfei",
+          "lastName": "Xia",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "J. Joshua",
+          "lastName": "Yang",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Memristive crossbar arrays for brain-inspired computing",
+      "date": "2019-03-20",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q92512853",
+      "volume": "18",
+      "pages": "309-323",
+      "publicationTitle": "Nature Materials",
+      "DOI": "10.1038/S41563-019-0291-X",
+      "issue": "4"
+    \},
+    "ocis": [
+      "01098906773-01092512853"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Mirko",
+          "lastName": "Hansen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Finn",
+          "lastName": "Zahari",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Martin",
+          "lastName": "Ziegler",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Hermann",
+          "lastName": "Kohlstedt",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Double-Barrier Memristive Devices for Unsupervised Learning and Pattern Recognition",
+      "date": "2017-02-28",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q38908192",
+      "volume": "11",
+      "pages": "91",
+      "publicationTitle": "Frontiers in Neuroscience",
+      "DOI": "10.3389/FNINS.2017.00091"
+    \},
+    "ocis": [
+      "01098906773-01038908192"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Peter U.",
+          "lastName": "Diehl",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Matthew",
+          "lastName": "Cook",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Unsupervised learning of digit recognition using spike-timing-dependent plasticity",
+      "date": "2015-08-03",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q41964489",
+      "volume": "9",
+      "pages": "99",
+      "publicationTitle": "Frontiers in Computational Neuroscience",
+      "DOI": "10.3389/FNCOM.2015.00099"
+    \},
+    "ocis": [
+      "01098906773-01041964489"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Yuchao",
+          "lastName": "Yang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Wei",
+          "lastName": "Lu",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Nanoscale resistive switching devices: mechanisms and modeling",
+      "date": "2013-09-09",
+      "language": "English",
+      "shortTitle": "Nanoscale resistive switching devices",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q38140651",
+      "volume": "5",
+      "pages": "10076-10092",
+      "publicationTitle": "Nanoscale",
+      "DOI": "10.1039/C3NR03472K",
+      "issue": "21"
+    \},
+    "ocis": [
+      "01098906773-01038140651"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Marina",
+          "lastName": "Ignatov",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Martin",
+          "lastName": "Ziegler",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Mirko",
+          "lastName": "Hansen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Hermann",
+          "lastName": "Kohlstedt",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Memristive stochastic plasticity enables mimicking of neural synchrony: Memristive circuit emulates an optical illusion",
+      "date": "2017-10-25",
+      "shortTitle": "Memristive stochastic plasticity enables mimicking of neural synchrony",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q42631289",
+      "volume": "3",
+      "pages": "e1700849",
+      "publicationTitle": "Science Advances",
+      "DOI": "10.1126/SCIADV.1700849",
+      "issue": "10"
+    \},
+    "ocis": [
+      "01098906773-01042631289"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Fries",
+          "lastName": "P",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Pascal",
+          "lastName": "Fries",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "A mechanism for cognitive dynamics: neuronal communication through neuronal coherence",
+      "date": "2005-10-01",
+      "language": "English",
+      "shortTitle": "A mechanism for cognitive dynamics",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q29616307",
+      "volume": "9",
+      "pages": "474-480",
+      "publicationTitle": "Trends in Cognitive Sciences",
+      "DOI": "10.1016/J.TICS.2005.08.011",
+      "issue": "10"
+    \},
+    "ocis": [
+      "01098906773-01029616307"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Tomas",
+          "lastName": "Tuma",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Angeliki",
+          "lastName": "Pantazi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Manuel Le",
+          "lastName": "Gallo",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Abu",
+          "lastName": "Sebastian",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Evangelos",
+          "lastName": "Eleftheriou",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Stochastic phase-change neurons",
+      "date": "2016-05-16",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q39763572",
+      "volume": "11",
+      "pages": "693-699",
+      "publicationTitle": "Nature Nanotechnology",
+      "DOI": "10.1038/NNANO.2016.70",
+      "issue": "8"
+    \},
+    "ocis": [
+      "01098906773-01039763572"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Siddharth",
+          "lastName": "Gaba",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Patrick",
+          "lastName": "Sheridan",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Jiantao",
+          "lastName": "Zhou",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Shinhyun",
+          "lastName": "Choi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Wei",
+          "lastName": "Lu",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Stochastic memristive devices for computing and neuromorphic applications",
+      "date": "2013-05-22",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q44533700",
+      "volume": "5",
+      "pages": "5872-5878",
+      "publicationTitle": "Nanoscale",
+      "DOI": "10.1039/C3NR01176C",
+      "issue": "13"
+    \},
+    "ocis": [
+      "01098906773-01044533700"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Melika",
+          "lastName": "Payvand",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Manu V.",
+          "lastName": "Nair",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Lorenz K.",
+          "lastName": "M{\"u}ller",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Giacomo",
+          "lastName": "Indiveri",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "A neuromorphic systems approach to in-memory computing with non-ideal memristive devices: from mitigation to exploitation",
+      "date": "2019-02-01",
+      "language": "English",
+      "shortTitle": "A neuromorphic systems approach to in-memory computing with non-ideal memristive devices",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q57785536",
+      "volume": "213",
+      "pages": "487-510",
+      "publicationTitle": "Faraday Discussions",
+      "DOI": "10.1039/C8FD00114F",
+      "issue": "0"
+    \},
+    "ocis": [
+      "01098906773-01057785536"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Amirreza",
+          "lastName": "Yousefzadeh",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Evangelos",
+          "lastName": "Stromatias",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Miguel",
+          "lastName": "Soto",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Teresa",
+          "lastName": "Serrano-Gotarredona",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Bernab{\'e}",
+          "lastName": "Linares-Barranco",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "On Practical Issues for Stochastic STDP Hardware With 1-bit Synaptic Weights",
+      "date": "2018",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "qid: Q58122167",
+      "volume": "12",
+      "pages": "665",
+      "publicationTitle": "Frontiers in Neuroscience",
+      "DOI": "10.3389/FNINS.2018.00665"
+    \},
+    "ocis": [
+      "01098906773-01058122167"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Dakota E.",
+          "lastName": "McCoy",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Teresa J.",
+          "lastName": "Feo",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Todd Alan",
+          "lastName": "Harvey",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Richard O.",
+          "lastName": "Prum",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Structural absorption by barbule microstructures of super black bird of paradise feathers",
+      "date": "2018-01-09",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "qid: Q48276670",
+      "volume": "9",
+      "pages": "1",
+      "publicationTitle": "Nature Communications",
+      "DOI": "10.1038/S41467-017-02088-W",
+      "issue": "1"
+    \},
+    "ocis": [
+      "01098906773-01048276670"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Patrick",
+          "lastName": "Haffner",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yann",
+          "lastName": "LeCun",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "L{\'e}on",
+          "lastName": "Bottou",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Yoshua",
+          "lastName": "Bengio",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Gradient-based learning applied to document recognition",
+      "date": "1998",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q30077859",
+      "volume": "86",
+      "pages": "2278{\textendash}2324",
+      "publicationTitle": "Proceedings of the IEEE",
+      "DOI": "10.1109/5.726791",
+      "issue": "11"
+    \},
+    "ocis": [
+      "01098906773-01030077859"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Alexantrou",
+          "lastName": "Serb",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "S.",
+          "lastName": "Brivio",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Erika",
+          "lastName": "Covi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "A.",
+          "lastName": "Serb",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Themis",
+          "lastName": "Prodromakis",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "M.",
+          "lastName": "Fanciulli",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "S.",
+          "lastName": "Spiga",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Experimental study of gradual/abrupt dynamics of HfO2-based memristive devices",
+      "date": "2016-09-26",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q61715837",
+      "volume": "109",
+      "pages": "133504",
+      "publicationTitle": "Applied Physics Letters",
+      "DOI": "10.1063/1.4963675",
+      "issue": "13"
+    \},
+    "ocis": [
+      "01098906773-01061715837"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Alessandro",
+          "lastName": "Grossi",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Eduardo",
+          "lastName": "Perez",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Cristian",
+          "lastName": "Zambelli",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Piero",
+          "lastName": "Olivo",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Enrique",
+          "lastName": "Miranda",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Robin",
+          "lastName": "Roelofs",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Jacob",
+          "lastName": "Woodruff",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Petri",
+          "lastName": "Raisanen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Wei",
+          "lastName": "Li",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Michael",
+          "lastName": "Givens",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Ioan",
+          "lastName": "Costina",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Markus Andreas",
+          "lastName": "Schubert",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Christian",
+          "lastName": "Wenger",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Impact of the precursor chemistry and process conditions on the cell-to-cell variability in 1T-1R based HfO2 RRAM devices",
+      "date": "2018-07-24",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "qid: Q64961291",
+      "volume": "8",
+      "pages": "11160",
+      "publicationTitle": "Scientific Reports",
+      "DOI": "10.1038/S41598-018-29548-7",
+      "issue": "1"
+    \},
+    "ocis": [
+      "01098906773-01064961291"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Martin",
+          "lastName": "Ziegler",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Christoph",
+          "lastName": "Riggert",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Mirko",
+          "lastName": "Hansen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Thorsten",
+          "lastName": "Bartsch",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Hermann",
+          "lastName": "Kohlstedt",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Memristive Hebbian plasticity model: device requirements for the emulation of Hebbian plasticity based on memristive devices",
+      "date": "2015-04-14",
+      "shortTitle": "Memristive Hebbian plasticity model",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q41064770",
+      "volume": "9",
+      "pages": "197-206",
+      "publicationTitle": "IEEE Transactions on Biomedical Circuits and Systems",
+      "DOI": "10.1109/TBCAS.2015.2410811",
+      "issue": "2"
+    \},
+    "ocis": [
+      "01098906773-01041064770"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Xueyao",
+          "lastName": "Huang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Huaqiang",
+          "lastName": "Wu",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Bin",
+          "lastName": "Gao",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Deepak C.",
+          "lastName": "Sekar",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Lingjun",
+          "lastName": "Dai",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Mark",
+          "lastName": "Kellam",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Gary",
+          "lastName": "Bronner",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Ning",
+          "lastName": "Deng",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "He",
+          "lastName": "Qian",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "HfO2/Al2O3 multilayer for RRAM arrays: a technique to improve tail-bit retention",
+      "date": "2016-08-18",
+      "shortTitle": "HfO2/Al2O3 multilayer for RRAM arrays",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q39477559",
+      "volume": "27",
+      "pages": "395201",
+      "publicationTitle": "Nanotechnology",
+      "DOI": "10.1088/0957-4484/27/39/395201",
+      "issue": "39"
+    \},
+    "ocis": [
+      "01098906773-01039477559"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "M.",
+          "lastName": "Hansen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "M.",
+          "lastName": "Ziegler",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "L.",
+          "lastName": "Kolberg",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "R.",
+          "lastName": "Soni",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "S.",
+          "lastName": "Dirkmann",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Thomas",
+          "lastName": "Mussenbrock",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "H.",
+          "lastName": "Kohlstedt",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "A double barrier memristive device",
+      "date": "2015-09-08",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "qid: Q36035215",
+      "volume": "5",
+      "pages": "13753",
+      "publicationTitle": "Scientific Reports",
+      "DOI": "10.1038/SREP13753"
+    \},
+    "ocis": [
+      "01098906773-01036035215"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Evangelos",
+          "lastName": "Stromatias",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Miguel",
+          "lastName": "Soto",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Mar{\'i}a Teresa Serrano",
+          "lastName": "Gotarredona",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Bernab{\'e}",
+          "lastName": "Linares-Barranco",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "An Event-Driven Classifier for Spiking Neural Networks Fed with Synthetic or Dynamic Vision Sensor Data",
+      "date": "2017-06-28",
+      "libraryCatalog": "Wikidata API",
+      "extra": "qid: Q38681912",
+      "volume": "11",
+      "pages": "350",
+      "publicationTitle": "Frontiers in Neuroscience",
+      "DOI": "10.3389/FNINS.2017.00350"
+    \},
+    "ocis": [
+      "01098906773-01038681912"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Hao",
+          "lastName": "Jiang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Lili",
+          "lastName": "Han",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Peng",
+          "lastName": "Lin",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Zhongrui",
+          "lastName": "Wang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Moon Hyung",
+          "lastName": "Jang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Qing",
+          "lastName": "Wu",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Mark",
+          "lastName": "Barnell",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "J. Joshua",
+          "lastName": "Yang",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Huolin L.",
+          "lastName": "Xin",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Qiangfei",
+          "lastName": "Xia",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Sub-10 nm Ta Channel Responsible for Superior Performance of a HfO2 Memristor",
+      "date": "2016-06-23",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "qid: Q37030789",
+      "volume": "6",
+      "pages": "28525",
+      "publicationTitle": "Scientific Reports",
+      "DOI": "10.1038/SREP28525"
+    \},
+    "ocis": [
+      "01098906773-01037030789"
+    ]
+  \},
+  \{
+    "item": \{
+      "itemType": "journalArticle",
+      "creators": [
+        \{
+          "firstName": "Mirko",
+          "lastName": "Hansen",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Finn",
+          "lastName": "Zahari",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Hermann",
+          "lastName": "Kohlstedt",
+          "creatorType": "author"
+        \},
+        \{
+          "firstName": "Martin",
+          "lastName": "Ziegler",
+          "creatorType": "author"
+        \}
+      ],
+      "title": "Unsupervised Hebbian learning experimentally realized with analogue memristive crossbar arrays",
+      "date": "2018-06-11",
+      "language": "English",
+      "libraryCatalog": "Wikidata API",
+      "rights": "Creative Commons Attribution 4.0 International",
+      "extra": "qid: Q55393697",
+      "volume": "8",
+      "pages": "8914",
+      "publicationTitle": "Scientific Reports",
+      "DOI": "10.1038/S41598-018-27033-9",
+      "issue": "1"
+    \},
+    "ocis": [
+      "01098906773-01055393697"
+    ]
+  \}
+]},
+  file = {C:\Users\onepi\OneDrive\LogSync\Zotero\Zahari et al. - 2020 - Analogue pattern recognition with stochastic switching binary CMOS-integrated memristive devices.pdf}
+}
+
+@phdthesis{zinsNeuromorphicComputingApplications2023,
+  type = {Master of {{Science}} in {{Electrical}} and {{Computer Engineering}}},
+  title = {Neuromorphic {{Computing Applications}} in {{Robotics}}},
+  author = {Zins, Noah},
+  year = {2023},
+  address = {{Houghton, Michigan}},
+  doi = {10.37099/mtu.dc.etdr/1608},
+  urldate = {2023-12-31},
+  langid = {english},
+  school = {Michigan Technological University},
+  keywords = {/unread,Neuromorphic architecture,Robotics,ROS},
+  file = {C:\Users\onepi\Zotero\storage\X4KE4BGZ\Zins - 2023 - Neuromorphic Computing Applications in Robotics.pdf}
+}
