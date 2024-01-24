@@ -7,7 +7,7 @@
 }{typearea}
 
 \LoadClass[a4paper,
-           twoside,
+           oneside,
            11pt,
            cleardoublepage=empty,
            numbers=noenddot,
@@ -197,7 +197,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \RequirePackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Typefaces for parts, chapters, and sections
@@ -218,3 +218,4 @@
 \renewcommand*{\chapterformat}{%
   \fontsize{50}{55}\selectfont\thechapter\autodot\enskip
 }
+

@@ -1,0 +1,92 @@
+% !TEX root = my-thesis.tex
+
+
+% **************************************************
+% Files' Character Encoding
+% **************************************************
+\PassOptionsToPackage{utf8}{inputenc}
+\usepackage{inputenc}
+
+
+% **************************************************
+% Information and Commands for Reuse
+% **************************************************
+\newcommand{\thesisTitle}{In-sensor Stochastic Computing Implementations and Comparative Analysis with \\ Conventional Digital Computing}
+\newcommand{\thesisName}{DO LE DUY}
+\newcommand{\thesisSubject}{Bachelor Thesis}
+\newcommand{\thesisDate}{Feb 7, 2024}
+\newcommand{\thesisVersion}{First Draft}
+
+
+\newcommand{\thesisSupervisor}{Prof. Masanori Hashimoto}
+\newcommand{\thesisSupervisorGroup}{Integrated Systems Engineering Laboratory}
+
+\newcommand{\thesisUniversity}{\protect{Kyoto University}}
+\newcommand{\thesisUniversitySchool}{School of Engineering}
+\newcommand{\thesisUniversityDepartment}{Department of Electrical and Electronic Engineering}
+\newcommand{\thesisUniversityGroup}{Integrated Systems Engineering Laboratory}
+
+
+% **************************************************
+% Fonts
+% **************************************************
+\usepackage{charter}
+\usepackage[oldstyle,scale=0.7]{sourcecodepro}
+
+
+% **************************************************
+% Load and Configure Packages
+% **************************************************
+\usepackage[english]{babel} % babel system, adjust the language of the content
+\usepackage{scrhack}
+
+
+\setlength{\parindent}{0pt} % Remove para indent
+\setstretch{1.2} % value for line spacing, use \setstretch{} 
+\setlength{\parskip}{1em} % value for paragraph indentation
+
+\usepackage{amsmath}
+
+% Save the original \frac command in case it's needed
+\let\oldfrac\frac
+% Redefine \frac to be \dfrac
+\renewcommand{\frac}[2]{\dfrac{#1}{#2}}
+
+
+% Move figures to end of thesis
+\usepackage[nomarkers]{endfloat}
+% Redefine the separator between figures/tables
+\renewcommand{\efloatseparator}{\vspace{1cm}}
+
+
+% Adjust section titles formating
+% \usepackage{titlesec}
+% \titleformat{\section}
+% {\normalfont\large\bfseries}{\thesection}{1em}{}
+% \titleformat{\subsection}
+% {\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\usepackage[%
+  colorlinks = true,
+  citecolor  = RoyalBlue,
+  linkcolor  = RoyalBlue,
+  urlcolor   = RoyalBlue,
+  ]{hyperref}
+
+% Setup biblatex
+\usepackage[%
+  autocite     = plain,
+  backend      = biber,
+  doi          = true,
+  url          = true,
+  giveninits   = true,
+  hyperref     = true,
+  maxbibnames  = 99,
+  maxcitenames = 99,
+  sortcites    = true,
+  style        = numeric,
+  ]{biblatex}
+
+% \input{bibliography-mimosis}
+\addbibresource{Thesis.bib}
+

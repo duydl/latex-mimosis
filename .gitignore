@@ -35,3 +35,4 @@
 *.pgf-plot.*
 
 Figures/External/
+.tmp
